@@ -1,0 +1,46 @@
+{
+ "latest": {
+  "t": 1788737763,
+  "adopted": false,
+  "why": "no improvement",
+  "dev_perplexity": 13.018,
+  "incumbent_perplexity": 12.9337,
+  "dev_examples": 201,
+  "train_examples": 921,
+  "vocab": 282,
+  "features": 960,
+  "best_epoch": 3,
+  "warm": false,
+  "tokens": 36400,
+  "stopped": "early stop",
+  "loss_per_token": 0.9447,
+  "seconds": 4.7
+ },
+ "corpus": {
+  "records": 13214,
+  "tasks": 550,
+  "fit_tasks": 316,
+  "examples": 1122,
+  "train": 921,
+  "dev": 201,
+  "dropped": 0,
+  "evidence_files": 36
+ },
+ "model": {
+  "steps": 36400,
+  "features": 960,
+  "vocab": 282,
+  "dev_perplexity": 13.018,
+  "trained_at": 1788737763,
+  "corpus": {
+   "records": 13214,
+   "tasks": 550,
+   "fit_tasks": 316,
+   "examples": 1122,
+   "train": 921,
+   "dev": 201,
+   "dropped": 0,
+   "evidence_files": 36
+  }
+ }
+}

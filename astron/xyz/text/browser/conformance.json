@@ -1,0 +1,880 @@
+{
+ "queries": [
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "high school",
+   "parse": "bare",
+   "q": "what is high school",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:2",
+    "qlen:2",
+    "sub:2",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "high school"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "high school musical",
+   "parse": "bare",
+   "q": "what is High School Musical",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:3",
+    "qlen:3",
+    "sub:3",
+    "rel:none",
+    "case:title",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "High School Musical"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "bare",
+   "identity": "math",
+   "parse": "bare",
+   "q": "math",
+   "relation": "",
+   "signatures": [
+    "form:bare",
+    "parse:bare",
+    "len:1",
+    "qlen:0",
+    "sub:1",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "math"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "math rock",
+   "parse": "bare",
+   "q": "what is math rock",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:2",
+    "qlen:2",
+    "sub:2",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "math rock"
+  },
+  {
+   "families": [
+    "identity"
+   ],
+   "family_dist": {
+    "identity": 1.0
+   },
+   "form": "whois",
+   "identity": "albert einstein",
+   "parse": "bare",
+   "q": "who is Albert Einstein",
+   "relation": "",
+   "signatures": [
+    "form:whois",
+    "parse:bare",
+    "len:2",
+    "qlen:2",
+    "sub:3",
+    "rel:none",
+    "case:title",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "Albert Einstein"
+  },
+  {
+   "families": [
+    "relational_fact",
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.4e-08,
+    "relational_fact": 0.999999986
+   },
+   "form": "bare",
+   "identity": "france",
+   "parse": "relation",
+   "q": "capital of France",
+   "relation": "capital",
+   "signatures": [
+    "form:bare",
+    "parse:relation",
+    "len:1",
+    "qlen:2",
+    "sub:1",
+    "rel:1",
+    "case:title",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "France"
+  },
+  {
+   "families": [
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 1.0
+   },
+   "form": "bare",
+   "identity": "",
+   "parse": "bare",
+   "q": "hey",
+   "relation": "",
+   "signatures": [
+    "form:bare",
+    "parse:bare",
+    "len:0",
+    "qlen:0",
+    "sub:0",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:yes",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": ""
+  },
+  {
+   "families": [
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 1.0
+   },
+   "form": "meta",
+   "identity": "how are you",
+   "parse": "bare",
+   "q": "how are you",
+   "relation": "",
+   "signatures": [
+    "form:meta",
+    "parse:bare",
+    "len:0",
+    "qlen:2",
+    "sub:2",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "convo:phrase",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "how are you"
+  },
+  {
+   "families": [
+    "definition",
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 0.998395488,
+    "definition": 0.001604512
+   },
+   "form": "tellme",
+   "identity": "more",
+   "parse": "bare",
+   "q": "tell me more",
+   "relation": "",
+   "signatures": [
+    "form:tellme",
+    "parse:bare",
+    "len:1",
+    "qlen:2",
+    "sub:1",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:yes",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "more"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "photosynthesis",
+   "parse": "bare",
+   "q": "anyway what's photosynthesis",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:1",
+    "qlen:2",
+    "sub:2",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:yes",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "photosynthesis"
+  },
+  {
+   "families": [
+    "comparison"
+   ],
+   "family_dist": {
+    "comparison": 1.0
+   },
+   "form": "compare",
+   "identity": "java vs javascript",
+   "parse": "bare",
+   "q": "Java vs JavaScript",
+   "relation": "",
+   "signatures": [
+    "form:compare",
+    "parse:bare",
+    "len:3",
+    "qlen:2",
+    "sub:3",
+    "rel:none",
+    "case:mixed",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "Java vs JavaScript"
+  },
+  {
+   "families": [
+    "explanation",
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 0.036169822,
+    "explanation": 0.963830178
+   },
+   "form": "why",
+   "identity": "quantum mechanics",
+   "parse": "bare",
+   "q": "explain quantum mechanics",
+   "relation": "",
+   "signatures": [
+    "form:why",
+    "parse:bare",
+    "len:2",
+    "qlen:2",
+    "sub:3",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "quantum mechanics"
+  },
+  {
+   "families": [
+    "site",
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1e-09,
+    "site": 0.999999999
+   },
+   "form": "whatis",
+   "identity": "cell4 do",
+   "parse": "bare",
+   "q": "what does CELL4 do",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:1",
+    "qlen:2",
+    "sub:2",
+    "rel:none",
+    "case:mixed",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:yes",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "CELL4 do"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "define",
+   "identity": "entropy",
+   "parse": "bare",
+   "q": "define entropy",
+   "relation": "",
+   "signatures": [
+    "form:define",
+    "parse:bare",
+    "len:1",
+    "qlen:1",
+    "sub:2",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "entropy"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "bare_q",
+   "identity": "python",
+   "parse": "bare",
+   "q": "python?",
+   "relation": "",
+   "signatures": [
+    "form:bare_q",
+    "parse:bare",
+    "len:1",
+    "qlen:0",
+    "sub:1",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:q",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "python"
+  },
+  {
+   "families": [
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 1.0
+   },
+   "form": "meta",
+   "identity": "why do you sound so formal",
+   "parse": "bare",
+   "q": "why do you sound so formal",
+   "relation": "",
+   "signatures": [
+    "form:meta",
+    "parse:bare",
+    "len:2",
+    "qlen:3",
+    "sub:3",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "why do you sound so formal"
+  },
+  {
+   "families": [
+    "definition",
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 0.999985741,
+    "definition": 1.4259e-05
+   },
+   "form": "when",
+   "identity": "when was he born",
+   "parse": "bare",
+   "q": "when was he born",
+   "relation": "",
+   "signatures": [
+    "form:when",
+    "parse:bare",
+    "len:1",
+    "qlen:2",
+    "sub:3",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:yes",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "when was he born"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "matrix",
+   "parse": "bare",
+   "q": "what is the matrix",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:1",
+    "qlen:2",
+    "sub:1",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "matrix"
+  },
+  {
+   "families": [
+    "site",
+    "explanation",
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 3.321e-06,
+    "explanation": 0.934672869,
+    "site": 0.06532381
+   },
+   "form": "howwork",
+   "identity": "how does a transformer work",
+   "parse": "bare",
+   "q": "how does a transformer work",
+   "relation": "",
+   "signatures": [
+    "form:howwork",
+    "parse:bare",
+    "len:2",
+    "qlen:3",
+    "sub:3",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:yes",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "how does a transformer work"
+  },
+  {
+   "families": [
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 1.0
+   },
+   "form": "bare",
+   "identity": "",
+   "parse": "bare",
+   "q": "  ",
+   "relation": "",
+   "signatures": [
+    "form:bare",
+    "parse:bare",
+    "len:0",
+    "qlen:0",
+    "sub:0",
+    "rel:none",
+    "case:none",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": ""
+  },
+  {
+   "families": [
+    "definition",
+    "conversational"
+   ],
+   "family_dist": {
+    "conversational": 0.998961086,
+    "definition": 0.001038914
+   },
+   "form": "bare_q",
+   "identity": "",
+   "parse": "bare",
+   "q": "???",
+   "relation": "",
+   "signatures": [
+    "form:bare_q",
+    "parse:bare",
+    "len:0",
+    "qlen:0",
+    "sub:0",
+    "rel:none",
+    "case:none",
+    "dup:no",
+    "punct:q",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": ""
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "bare",
+   "identity": "a",
+   "parse": "bare",
+   "q": "a",
+   "relation": "",
+   "signatures": [
+    "form:bare",
+    "parse:bare",
+    "len:0",
+    "qlen:0",
+    "sub:1",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "a"
+  },
+  {
+   "families": [
+    "definition"
+   ],
+   "family_dist": {
+    "definition": 1.0
+   },
+   "form": "whatis",
+   "identity": "what is what is",
+   "parse": "bare",
+   "q": "what is what is what is",
+   "relation": "",
+   "signatures": [
+    "form:whatis",
+    "parse:bare",
+    "len:0",
+    "qlen:3",
+    "sub:3",
+    "rel:none",
+    "case:lower",
+    "dup:no",
+    "punct:none",
+    "convo:no",
+    "shift:no",
+    "cont:no",
+    "pron:no",
+    "site:no",
+    "ctx:fresh",
+    "depth:0"
+   ],
+   "subject": "what is what is"
+  }
+ ],
+ "tiers": [
+  {
+   "asked": "high school",
+   "containment": [
+    true,
+    1
+   ],
+   "dup_mismatch": true,
+   "reason": "expanded+1",
+   "tier": 1,
+   "title": "High School High"
+  },
+  {
+   "asked": "high school",
+   "containment": [
+    false,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "lexical",
+   "tier": 0,
+   "title": "Secondary school"
+  },
+  {
+   "asked": "high school musical",
+   "containment": [
+    true,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "identity-equal",
+   "tier": 3,
+   "title": "High School Musical"
+  },
+  {
+   "asked": "math",
+   "containment": [
+    false,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "lexical",
+   "tier": 0,
+   "title": "MathJax"
+  },
+  {
+   "asked": "math",
+   "containment": [
+    false,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "lexical",
+   "tier": 0,
+   "title": "Mathematics"
+  },
+  {
+   "asked": "math rock",
+   "containment": [
+    true,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "identity-equal",
+   "tier": 3,
+   "title": "Math rock"
+  },
+  {
+   "asked": "matrix",
+   "containment": [
+    true,
+    1
+   ],
+   "dup_mismatch": false,
+   "reason": "expanded+1",
+   "tier": 1,
+   "title": "The Matrix"
+  },
+  {
+   "asked": "matrix",
+   "containment": [
+    true,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "identity-equal",
+   "tier": 3,
+   "title": "Matrix (mathematics)"
+  },
+  {
+   "asked": "apple",
+   "containment": [
+    true,
+    1
+   ],
+   "dup_mismatch": false,
+   "reason": "expanded+1",
+   "tier": 1,
+   "title": "Apple Inc."
+  },
+  {
+   "asked": "school",
+   "containment": [
+    true,
+    2
+   ],
+   "dup_mismatch": false,
+   "reason": "expanded+2",
+   "tier": 1,
+   "title": "School of Rock"
+  },
+  {
+   "asked": "cell",
+   "containment": [
+    true,
+    0
+   ],
+   "dup_mismatch": false,
+   "reason": "identity-equal",
+   "tier": 3,
+   "title": "Cell (biology)"
+  }
+ ]
+}

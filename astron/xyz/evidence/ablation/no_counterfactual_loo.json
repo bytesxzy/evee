@@ -1,0 +1,10013 @@
+{
+ "n": 314,
+ "solved": 138,
+ "solved_top2": 144,
+ "rate": 0.4395,
+ "rate_top2": 0.4586,
+ "arc1": {
+  "n": 234,
+  "solved": 113,
+  "rate": 0.4829
+ },
+ "arc2": {
+  "n": 80,
+  "solved": 25,
+  "rate": 0.3125
+ },
+ "partial_mean": 0.519,
+ "errors": 0,
+ "wall": 516.3,
+ "cpu_sum": 5557.9,
+ "budget": 20.0,
+ "k": 2,
+ "loo": false,
+ "policy": null,
+ "planner": "C:\\aw\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\policy\\arc_planner.json",
+ "dropped": [],
+ "tasks_dir": "split_hold",
+ "per_task": [
+  {
+   "id": "arc1_00d62c1b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.691,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fill_holes#4",
+     3.5
+    ],
+    [
+     "objects:proc[c4/3/rect|2]",
+     5.36
+    ],
+    [
+     "sequence:fill_enclosed0#4",
+     5.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "fill_holes#4",
+   "programs": []
+  },
+  {
+   "id": "arc1_017c7c7b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.406,
+   "solver": "arch_math",
+   "hyps": [
+    [
+     "arch_math:periodic_rows_3_2_recolour(0>0,1>2)",
+     10.45
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "periodic_rows_3_2_recolour(0>0,1>2)",
+   "programs": []
+  },
+  {
+   "id": "arc1_0520fde7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.706,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[sep#5/ordered|2>4]",
+     3.38
+    ],
+    [
+     "partition:sep#5.and->2",
+     5.5
+    ],
+    [
+     "partition:sep#5.majority->2",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ptab[sep#5/ordered|2>4]",
+   "programs": [
+    "T@ptab[sep#5/ordered|2>4]",
+    "R@ptab[sep#5/ordered|2>4]",
+    "T@sep#5.and->2",
+    "R@sep#5.and->2"
+   ]
+  },
+  {
+   "id": "arc1_06df4c85",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.829,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_08ed6ac7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.062,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size_rank",
+     5.2
+    ],
+    [
+     "objects:c8@0.by_size_rank",
+     5.2
+    ],
+    [
+     "objects:m4@0.by_size_rank",
+     5.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c4@0.by_size_rank",
+   "programs": [
+    "T@c4@0.by_size_rank",
+    "R@c4@0.by_size_rank",
+    "paint#1($)>>c4@0.by_size_rank"
+   ]
+  },
+  {
+   "id": "arc1_0962bcdd",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.705,
+   "solver": "compose",
+   "hyps": [
+    [
+     "objects:subst_m8_patch",
+     5.7
+    ],
+    [
+     "objects:subst_m8_patch_bg",
+     5.7
+    ],
+    [
+     "objects:subst_m8_color",
+     5.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rankpal~subst_c8_mask",
+   "programs": []
+  },
+  {
+   "id": "arc1_0ca9ddb6",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.669,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_patch",
+     5.9
+    ],
+    [
+     "objects:subst_m8_patch_bg",
+     5.9
+    ],
+    [
+     "objects:subst_m8_color",
+     5.9
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "subst_m8_patch",
+   "programs": [
+    "T@subst_m8_patch",
+    "R@subst_m8_patch"
+   ]
+  },
+  {
+   "id": "arc1_0d3d703e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.906,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_color",
+     5.16
+    ],
+    [
+     "tiling:panelmap_even3x1_grid",
+     5.5
+    ],
+    [
+     "tiling:panelmap_even3x3_cell",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "ca_color",
+   "programs": []
+  },
+  {
+   "id": "arc1_0dfd9992",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.774,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#0",
+     3.0
+    ],
+    [
+     "tiling:period[x/bg]",
+     3.1
+    ],
+    [
+     "tiling:period[both/bg]",
+     3.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": "repair#0",
+   "programs": []
+  },
+  {
+   "id": "arc1_0e206a2e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.822,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_10fcaaa3",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.6,
+   "time": 14.442,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:c8.all.out8(tile2($))>>subst_c8_patch_bg",
+     15.9
+    ],
+    [
+     "compose:c8.in.out8(tile2($))>>subst_c8_patch_bg",
+     16.3
+    ],
+    [
+     "compose:c8.big.out8(tile2($))>>subst_c8_patch_bg",
+     16.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "del#3(tile2($))>>ca_n8mask",
+   "programs": [
+    "c8.all.out8(tile2($))>>subst_c8_patch_bg",
+    "c8.in.out8(tile2($))>>subst_c8_patch_bg",
+    "c8.big.out8(tile2($))>>subst_c8_patch_bg",
+    "tile2($)>>ca_n8mask",
+    "del#3(tile2($))>>ca_n8mask"
+   ]
+  },
+  {
+   "id": "arc1_1190e5a7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.475,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:pdict[sep_auto/palette/same|2]",
+     3.86
+    ],
+    [
+     "partition:sep_auto.reduce_mode",
+     6.7
+    ],
+    [
+     "partition:sep_auto.reduce_nonbg",
+     6.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:3",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "pdict[sep_auto/palette/same|2]",
+   "programs": [
+    "dedup|pdict[sep_auto/content/same|2]",
+    "dedup|panelmap_sep_auto_cell",
+    "rot90($)>>pdict[sep_auto/palette/transpose|2]",
+    "rot180($)>>pdict[sep_auto/palette/same|2]"
+   ]
+  },
+  {
+   "id": "arc1_137eaa0f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.703,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_178fcbfb",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.494,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:rays_1h2v3h0",
+     7.1
+    ],
+    [
+     "cellwise:ca_rowcol",
+     8.13
+    ],
+    [
+     "cellwise:ca_rowcol_lax",
+     9.13
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "rays_1h2v3h0",
+   "programs": [
+    "T@rays_1v2h3v1",
+    "R@rays_1v2h3v1",
+    "T@ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_1b2d62fb",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.065,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[sep#1/ordered|2>4]",
+     3.38
+    ],
+    [
+     "partition:sep#1.nor->8",
+     5.5
+    ],
+    [
+     "partition:sep_auto.nor->8",
+     5.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ptab[sep#1/ordered|2>4]",
+   "programs": [
+    "T@ptab[sep#1/ordered|2>4]",
+    "R@ptab[sep#1/ordered|2>4]",
+    "T@sep#1.nor->8",
+    "R@sep#1.nor->8",
+    "cmap[0>8,9>0](or(half_left($),half_right($)))"
+   ]
+  },
+  {
+   "id": "arc1_1b60fb0c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.79,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1cf80156",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.075,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:crop_content",
+     3.0
+    ],
+    [
+     "select:c4.max_size.patch",
+     4.0
+    ],
+    [
+     "select:c4.min_size.patch",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "crop_content",
+   "programs": []
+  },
+  {
+   "id": "arc1_1e0a9b12",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.484,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:gravity_down",
+     4.0
+    ],
+    [
+     "sequence:move_c4_down",
+     5.5
+    ],
+    [
+     "sequence:move_c8_down",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "gravity_down",
+   "programs": [
+    "grav_down($)",
+    "grav_down($)",
+    "grav_down(del#5($))",
+    "deep:grav_down($)"
+   ]
+  },
+  {
+   "id": "arc1_1e32b0e9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.81,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1f0c79e5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.828,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1f876c06",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.601,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect_d",
+     5.0
+    ],
+    [
+     "compose:rankpal~connect_d",
+     10.0
+    ],
+    [
+     "compose:T@connect_d",
+     10.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "connect_d",
+   "programs": [
+    "rankpal~connect_d",
+    "T@connect_d",
+    "R@connect_d"
+   ]
+  },
+  {
+   "id": "arc1_2013d3e2",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 16.604,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:quad0(crop($))",
+     7.3
+    ],
+    [
+     "compose:crop|ext[mirror/mirror]",
+     8.3
+    ],
+    [
+     "compose:compress|ext[mirror/mirror]",
+     8.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:same",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "quad0(crop($))",
+   "programs": [
+    "quad0(crop($))",
+    "crop|ext[mirror/mirror]",
+    "compress|ext[mirror/mirror]",
+    "strip|ext[mirror/mirror]",
+    "quad0(crop($))",
+    "crop|quad0",
+    "compress|quad0",
+    "strip|quad0"
+   ]
+  },
+  {
+   "id": "arc1_22168020",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.186,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect",
+     5.0
+    ],
+    [
+     "sequence:connect_d",
+     5.0
+    ],
+    [
+     "compose:connect($)",
+     6.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "connect",
+   "programs": [
+    "connect($)",
+    "connect($)",
+    "del#7(connect($))",
+    "deep:connect($)",
+    "connect($)>>id"
+   ]
+  },
+  {
+   "id": "arc1_2281f1f4",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.676,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rays",
+     6.3
+    ],
+    [
+     "cellwise:ca_rays_lax",
+     7.3
+    ],
+    [
+     "compose:T@ca_rays",
+     11.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_rays",
+   "programs": [
+    "T@ca_rays",
+    "R@ca_rays"
+   ]
+  },
+  {
+   "id": "arc1_228f6490",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.661,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:fill#8(c8.ucol.del($))>>subst_c8_patch",
+     17.0
+    ],
+    [
+     "compose:fill#9(c8.ucol.del($))>>subst_c8_patch",
+     17.0
+    ],
+    [
+     "compose:fill#2(c8.ucol.del($))>>subst_c8_patch",
+     17.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "fill#8(c8.ucol.del($))>>subst_c8_patch",
+   "programs": [
+    "fill#8(c8.ucol.del($))>>subst_c8_patch",
+    "fill#9(c8.ucol.del($))>>subst_c8_patch",
+    "fill#2(c8.ucol.del($))>>subst_c8_patch",
+    "fill#3(c8.ucol.del($))>>subst_c8_patch"
+   ]
+  },
+  {
+   "id": "arc1_22eb0ac0",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.84,
+   "time": 19.607,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rowcol",
+     9.78
+    ],
+    [
+     "cellwise:ca_rowcol_lax",
+     10.78
+    ],
+    [
+     "cellwise:ca_rays",
+     11.26
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_rowcol_lax",
+   "programs": [
+    "rankpal~ca_rowcol",
+    "T@ca_rowcol",
+    "R@ca_rowcol",
+    "del#5($)>>ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_234bbc79",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 15.968,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_23581191",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 16.543,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rowcol",
+     5.18
+    ],
+    [
+     "cellwise:ca_rowcol_lax",
+     6.18
+    ],
+    [
+     "cellwise:ca_rays",
+     6.26
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_rowcol",
+   "programs": [
+    "T@ca_rowcol",
+    "R@ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_239be575",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.0,
+   "time": 15.161,
+   "solver": "enumerate",
+   "hyps": [
+    [
+     "enumerate:deep:diff(quad1(quad2($)),quad0(quad2($)))",
+     15.2
+    ],
+    [
+     "enumerate:deep:diff(quad3(quad0(flip_v($))),quad0(quad2($)))",
+     16.2
+    ],
+    [
+     "enumerate:cmap[2>0](over(quad1(quad2($)),quad0(quad1($))))",
+     16.4
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "deep:diff(quad1(quad2($)),quad0(quad2($)))",
+   "programs": [
+    "deep:diff(quad1(quad2($)),quad0(quad2($)))",
+    "deep:diff(quad3(quad0(flip_v($))),quad0(quad2($)))",
+    "cmap[2>0](over(quad1(quad2($)),quad0(quad1($))))",
+    "cmap[0>8,2>0](or(quad0(quad1($)),quad0(quad3($))))",
+    "cmap[0>8,2>0](over(quad0(quad1($)),quad0(quad3($))))",
+    "cmap[0>8,8>0](xor(quad2(quad2($)),quad0(quad0($))))",
+    "deep:cmap[2>0](over(quad1(quad2($)),quad0(quad1($))))",
+    "deep:cmap[0>8,2>0](or(quad0(quad1($)),quad0(quad3($))))"
+   ]
+  },
+  {
+   "id": "arc1_23b5c85d",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.519,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.min_size.patch",
+     4.0
+    ],
+    [
+     "select:c4.min_bbox_area.patch",
+     4.0
+    ],
+    [
+     "select:c4.min_height.patch",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "c4.min_size.patch",
+   "programs": []
+  },
+  {
+   "id": "arc1_264363fd",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.881,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:8",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_272f95fa",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.685,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rays",
+     6.36
+    ],
+    [
+     "cellwise:ca_rays_lax",
+     7.36
+    ],
+    [
+     "cellwise:ca_rays+n8count",
+     10.96
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_rays",
+   "programs": [
+    "T@ca_rays",
+    "R@ca_rays",
+    "fill#6($)>>ca_rays",
+    "fill#1($)>>ca_rays"
+   ]
+  },
+  {
+   "id": "arc1_27a28665",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 13.865,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 3,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:3x3",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_28bf18c6",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.137,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:crop|fit_tile1x2",
+     8.3
+    ],
+    [
+     "compose:compress|fit_tile1x2",
+     8.3
+    ],
+    [
+     "compose:largest|fit_tile1x2",
+     8.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "crop|fit_tile1x2",
+   "programs": [
+    "crop|fit_tile1x2",
+    "compress|fit_tile1x2",
+    "largest|fit_tile1x2",
+    "crop|tile1x2",
+    "compress|tile1x2",
+    "largest|tile1x2",
+    "crop|ext[mirror/wrap]",
+    "compress|ext[mirror/wrap]"
+   ]
+  },
+  {
+   "id": "arc1_28e73c20",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 10.927,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_29c11459",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.176,
+   "solver": null,
+   "hyps": [
+    [
+     "tiling:linemap0",
+     5.5
+    ],
+    [
+     "compose:T@linemap1",
+     11.0
+    ],
+    [
+     "compose:R@linemap1",
+     11.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "linemap0",
+   "programs": [
+    "T@linemap1",
+    "R@linemap1",
+    "del#4($)>>linemap0",
+    "del#6($)>>linemap0",
+    "del#8($)>>linemap0",
+    "del#9($)>>linemap0",
+    "del#1($)>>linemap0"
+   ]
+  },
+  {
+   "id": "arc1_29ec7d0e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.745,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#0",
+     3.0
+    ],
+    [
+     "tiling:period[y/bg]",
+     3.1
+    ],
+    [
+     "tiling:period[both/bg]",
+     3.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "repair#0",
+   "programs": []
+  },
+  {
+   "id": "arc1_2bcee788",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.799,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_2bee17df",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.781,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_31aa019c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.799,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_321b1fc6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.68,
+   "time": 19.665,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc2[c4/0/square+color_unique|4]",
+     6.1
+    ],
+    [
+     "objects:proc[c4/0/size|5]",
+     7.44
+    ],
+    [
+     "objects:proc2[c4/0/color+square|8]",
+     7.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "proc2[c4/0/square+color_unique|4]",
+   "programs": [
+    "keep#8($)>>subst_c8_mask"
+   ]
+  },
+  {
+   "id": "arc1_32597951",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9896,
+   "time": 19.652,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     6.4
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     6.4
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "ca_n4_lax",
+   "programs": [
+    "T@subst_m8_mask",
+    "R@subst_m8_mask"
+   ]
+  },
+  {
+   "id": "arc1_3631a71a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.887,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#9",
+     3.0
+    ],
+    [
+     "symmetry:repair#9_lax",
+     4.0
+    ],
+    [
+     "symmetry:complete_box#9+0",
+     4.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": "repair#9",
+   "programs": []
+  },
+  {
+   "id": "arc1_363442ee",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_36d67576",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.645,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:analogy_m8_size_s1",
+     8.0
+    ],
+    [
+     "objects:analogy_m8_colors_s1",
+     8.0
+    ],
+    [
+     "objects:analogy_m8_bbox_s1",
+     8.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "analogy_m8_size_s1",
+   "programs": []
+  },
+  {
+   "id": "arc1_3aa6fb7a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.776,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     4.1
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     5.1
+    ],
+    [
+     "objects:objwise[c8]>>ca_color",
+     6.04
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_n4count",
+   "programs": []
+  },
+  {
+   "id": "arc1_3ac3eb23",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 15.199,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:rankpal~subst_c8_patch",
+     10.2
+    ],
+    [
+     "compose:del#4($)>>panelmap_even3x1_grid",
+     13.1
+    ],
+    [
+     "compose:keep#4($)>>panelmap_even3x1_grid",
+     13.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "rankpal~subst_c8_patch",
+   "programs": [
+    "rankpal~subst_c8_patch",
+    "del#4($)>>panelmap_even3x1_grid",
+    "keep#4($)>>panelmap_even3x1_grid"
+   ]
+  },
+  {
+   "id": "arc1_3af2c5a8",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.243,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x2",
+     2.8
+    ],
+    [
+     "geometry:tile_mirror2x2",
+     4.0
+    ],
+    [
+     "geometry:quad_mirror",
+     4.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "fit_tile2x2",
+   "programs": [
+    "R@fit_tile2x2",
+    "rankpal~tile_mirror2x2",
+    "T@tile_mirror2x2"
+   ]
+  },
+  {
+   "id": "arc1_3bd67248",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.771,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_3bdb4ada",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8909,
+   "time": 19.563,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_parity",
+     7.9
+    ],
+    [
+     "cellwise:ca_mod2",
+     8.4
+    ],
+    [
+     "cellwise:ca_parity_lax",
+     8.9
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_parity_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_3c9b0459",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.415,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:rot180",
+     2.0
+    ],
+    [
+     "objects:chain:rot180($)",
+     5.1
+    ],
+    [
+     "tiling:extend_rot180",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "rot180",
+   "programs": [
+    "rot180($)",
+    "rot180($)",
+    "del#6(rot180($))",
+    "del#7(rot180($))"
+   ]
+  },
+  {
+   "id": "arc1_3de23699",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.603,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:rankpal~paint#2(mark#2($))",
+     11.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "rankpal~paint#2(mark#2($))",
+   "programs": [
+    "rankpal~paint#2(mark#2($))"
+   ]
+  },
+  {
+   "id": "arc1_3e980e27",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.804,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_3f7978a0",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 16.429,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:mark#5_pad10",
+     5.8
+    ],
+    [
+     "compose:T@mark#5_pad01",
+     10.8
+    ],
+    [
+     "compose:R@mark#5_pad01",
+     10.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "mark#5_pad10",
+   "programs": [
+    "T@mark#5_pad01",
+    "R@mark#5_pad01"
+   ]
+  },
+  {
+   "id": "arc1_4093f84a",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9082,
+   "time": 19.682,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rays+n8count",
+     15.36
+    ],
+    [
+     "cellwise:ca_rays+n8count_lax",
+     16.36
+    ],
+    [
+     "partition:panelwise[even1x2]>>ca_rays+n8count",
+     19.24
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_rays+n8count_lax",
+   "programs": [
+    "T@ca_rays+n8count",
+    "R@ca_rays+n8count",
+    "del#4($)>>ca_rays+n8count"
+   ]
+  },
+  {
+   "id": "arc1_41e4d17e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:8",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_4290ef0e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.776,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:4",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_445eab21",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.832,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:color_most_fill",
+     6.0
+    ],
+    [
+     "select:color_largest_obj_fill",
+     6.0
+    ],
+    [
+     "objects:count_n_obj4_sq_modal",
+     8.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:5x5",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "color_most_fill",
+   "programs": [
+    "dedup|pdict[even2x1/count/same|3]",
+    "R@rep[+1+1/0b]",
+    "rankpal~pdict[even1x2/palette/same|2]"
+   ]
+  },
+  {
+   "id": "arc1_447fd412",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.776,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_44d8ac46",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.802,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     6.5
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     6.5
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "subst_m8_mask",
+   "programs": []
+  },
+  {
+   "id": "arc1_44f52bb0",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 10.656,
+   "solver": "colormap",
+   "hyps": [
+    [
+     "colormap:lookup_symm",
+     9.0
+    ],
+    [
+     "enumerate:cmap[0>7,2>1](quad3(sortrows($)))",
+     12.2
+    ],
+    [
+     "enumerate:deep:cmap[0>7,2>1](quad3(sortrows($)))",
+     12.6
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:3x3",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "lookup_symm",
+   "programs": [
+    "cmap[0>7,2>1](quad3(sortrows($)))",
+    "deep:cmap[0>7,2>1](quad3(sortrows($)))",
+    "cmap[0>7,2>1](mode_color(crop(wr-1+0($))))",
+    "deep:cmap[0>7,2>1](mode_color(crop(wr-1+0($))))",
+    "T@lookup_symm",
+    "R@lookup_symm"
+   ]
+  },
+  {
+   "id": "arc1_4522001f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 13.147,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:3x3",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_46442a0e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.735,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x2",
+     2.8
+    ],
+    [
+     "compose:rankpal~fit_tile2x2",
+     8.8
+    ],
+    [
+     "compose:T@fit_tile2x2",
+     8.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "pal:drop",
+    "ntrain:3",
+    "bg:6",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile2x2",
+   "programs": [
+    "rankpal~fit_tile2x2",
+    "T@fit_tile2x2",
+    "R@fit_tile2x2"
+   ]
+  },
+  {
+   "id": "arc1_469497ad",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 13.312,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_484b58aa",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.641,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#0",
+     3.0
+    ],
+    [
+     "tiling:period[both/bg]",
+     3.3
+    ],
+    [
+     "symmetry:repair#0_lax",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": "repair#0",
+   "programs": []
+  },
+  {
+   "id": "arc1_4938f0c2",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8571,
+   "time": 19.604,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     5.9
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     5.9
+    ],
+    [
+     "objects:subst_m8_patch",
+     5.9
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:low"
+   ],
+   "program": "subst_m8_dims",
+   "programs": []
+  },
+  {
+   "id": "arc1_49d1d64f",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.774,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:outline(pad0($))>>ca_ring",
+     15.07
+    ],
+    [
+     "compose:outline(pad0($))>>subst_c8_patch_bg",
+     15.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "outline(pad0($))>>ca_ring",
+   "programs": [
+    "outline(pad0($))>>ca_ring",
+    "outline(pad0($))>>subst_c8_patch_bg"
+   ]
+  },
+  {
+   "id": "arc1_4be741c5",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.363,
+   "solver": "enumerate",
+   "hyps": [
+    [
+     "enumerate:dedup(bbox_fill($))",
+     9.9
+    ],
+    [
+     "compose:dedup|dedup(bbox_fill($))",
+     11.4
+    ],
+    [
+     "compose:rankpal~dedup(bbox_fill($))",
+     11.9
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:2",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "dedup(bbox_fill($))",
+   "programs": [
+    "dedup(bbox_fill($))",
+    "dedup|dedup(bbox_fill($))",
+    "rankpal~dedup(bbox_fill($))"
+   ]
+  },
+  {
+   "id": "arc1_4c4377d9",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.55,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x1",
+     2.8
+    ],
+    [
+     "geometry:vcat_flip_v_rev",
+     4.5
+    ],
+    [
+     "compose:rankpal~fit_tile2x1",
+     8.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x1",
+    "outshape:const",
+    "pal:same",
+    "ntrain:4",
+    "bg:9",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "fit_tile2x1",
+   "programs": [
+    "rankpal~fit_tile2x1",
+    "T@fit_tile1x2",
+    "vcat(flip_v($),$)",
+    "deep:vcat(flip_v($),$)",
+    "R@tile_mirror1x2",
+    "rot180($)>>fit_tile2x1"
+   ]
+  },
+  {
+   "id": "arc1_4c5c2cf0",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.795,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_508bd3b6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.789,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_50cb2852",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.63,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     5.57
+    ],
+    [
+     "cellwise:ca_n8count",
+     5.65
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     6.57
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "ca_n4count",
+   "programs": []
+  },
+  {
+   "id": "arc1_5117e062",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.543,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:m4.max_ncolors.mask",
+     5.0
+    ],
+    [
+     "select:m8.max_ncolors.mask",
+     5.0
+    ],
+    [
+     "compose:crop|m4.max_ncolors.mask",
+     9.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "m4.max_ncolors.mask",
+   "programs": [
+    "crop|m4.max_ncolors.mask",
+    "crop|m8.max_ncolors.mask",
+    "compress|m4.max_ncolors.mask",
+    "dedup|m4.max_ncolors.mask",
+    "dedup|m8.max_ncolors.mask",
+    "strip|m4.max_ncolors.mask"
+   ]
+  },
+  {
+   "id": "arc1_5168d44c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 18.97,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:proc2[c4/0/color+border|4]",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "proc2[c4/0/color+border|4]",
+   "programs": []
+  },
+  {
+   "id": "arc1_539a4f51",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 16.721,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_54d82841",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.504,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_54d9e175",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.791,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:panel[sep#5|tbl]>>ca_color",
+     6.08
+    ],
+    [
+     "partition:panel[sep#5|shp]>>ca_color",
+     6.08
+    ],
+    [
+     "objects:subst_c8_patch",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "panel[sep#5|tbl]>>ca_color",
+   "programs": [
+    "T@subst_c8_patch"
+   ]
+  },
+  {
+   "id": "arc1_5521c0d9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_5582e5ca",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 4.472,
+   "solver": "select",
+   "hyps": [
+    [
+     "objects:proc[color/0/all|1]",
+     5.33
+    ],
+    [
+     "select:m4.max_size.solid",
+     5.5
+    ],
+    [
+     "select:m4.min_size.solid",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "m4.max_size.solid",
+   "programs": []
+  },
+  {
+   "id": "arc1_5614dbcf",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.193,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:modescale3x3",
+     3.5
+    ],
+    [
+     "partition:even3x3.reduce_mode",
+     7.0
+    ],
+    [
+     "compose:nzx3(del#5($))",
+     8.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:3x3",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "modescale3x3",
+   "programs": [
+    "nzx3(del#5($))",
+    "nzx3(del#5($))",
+    "rankpal~modescale3x3",
+    "T@modescale3x3",
+    "R@modescale3x3",
+    "deep:nzx3(del#5($))"
+   ]
+  },
+  {
+   "id": "arc1_56ff96f3",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.779,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:rect_corners0",
+     5.8
+    ],
+    [
+     "compose:rankpal~rect_corners0",
+     10.8
+    ],
+    [
+     "compose:T@rect_corners0",
+     10.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rect_corners0",
+   "programs": [
+    "rankpal~rect_corners0",
+    "T@rect_corners0",
+    "R@rect_corners0"
+   ]
+  },
+  {
+   "id": "arc1_5c0a986e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.339,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_5c2c9af4",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.8,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_5daaa586",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.716,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_60b61512",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 17.706,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:objwise[c8]>>ca_color",
+     6.04
+    ],
+    [
+     "objects:objwise[m8]>>ca_color",
+     6.04
+    ],
+    [
+     "objects:objwise[c4]>>ca_color",
+     6.04
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "objwise[c8]>>ca_color",
+   "programs": []
+  },
+  {
+   "id": "arc1_6150a2bd",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 6.528,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:rot180",
+     2.0
+    ],
+    [
+     "objects:chain:rot180($)",
+     5.1
+    ],
+    [
+     "tiling:extend_rot180",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "rot180",
+   "programs": [
+    "rot180($)",
+    "rot180($)",
+    "del#4(rot180($))",
+    "del#6(rot180($))"
+   ]
+  },
+  {
+   "id": "arc1_6455b5f5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.806,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_662c240a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.815,
+   "solver": "select",
+   "hyps": [
+    [
+     "partition:ptab[even3x1/ordered|3>18]",
+     3.81
+    ],
+    [
+     "select:win3x3.min_nsym_t",
+     5.0
+    ],
+    [
+     "partition:even3x1.sel_min_nsym",
+     6.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:3x1",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "win3x3.min_nsym_t",
+   "programs": [
+    "rankpal~ptab[even3x1/ordered|3>18]",
+    "T@ptab[even1x3/ordered|3>18]",
+    "R@ptab[even1x3/ordered|3>18]",
+    "rankpal~win3x3.min_nsym_t",
+    "T@win3x3.min_nsym_t"
+   ]
+  },
+  {
+   "id": "arc1_67385a82",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.738,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_is_smallest",
+     5.1
+    ],
+    [
+     "objects:m4@0.by_is_smallest",
+     5.1
+    ],
+    [
+     "objects:c4@0.by_h",
+     5.15
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "c4@0.by_is_smallest",
+   "programs": []
+  },
+  {
+   "id": "arc1_67a3c6ac",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.208,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:flip_h",
+     2.0
+    ],
+    [
+     "objects:chain:flip_h($)",
+     5.1
+    ],
+    [
+     "compose:flip_h($)",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:2",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "flip_h",
+   "programs": [
+    "flip_h($)",
+    "flip_h($)",
+    "deep:flip_h($)",
+    "T@flip_v",
+    "R@flip_v"
+   ]
+  },
+  {
+   "id": "arc1_67a423a3",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.698,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_67e8384a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.871,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x2",
+     2.8
+    ],
+    [
+     "geometry:tile_mirror2x2",
+     4.0
+    ],
+    [
+     "geometry:quad_mirror",
+     4.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "outshape:const",
+    "pal:same",
+    "ntrain:4",
+    "bg:1",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile2x2",
+   "programs": [
+    "R@fit_tile2x2",
+    "rankpal~tile_mirror2x2",
+    "T@tile_mirror2x2"
+   ]
+  },
+  {
+   "id": "arc1_694f12f3",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.621,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:c8.big.rec2($)>>ca_n4",
+     18.44
+    ],
+    [
+     "compose:c8.small.rec1($)>>ca_n4",
+     18.44
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c8.big.rec2($)>>ca_n4",
+   "programs": [
+    "c8.big.rec2($)>>ca_n4",
+    "c8.small.rec1($)>>ca_n4"
+   ]
+  },
+  {
+   "id": "arc1_6a1e5592",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6aa20dc0",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.789,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:1",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6cdd2623",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.795,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6cf79266",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.674,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:stamp3x3",
+     5.0
+    ],
+    [
+     "sequence:stamp3x3d",
+     5.0
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "stamp3x3",
+   "programs": [
+    "rankpal~subst_m8_mask",
+    "T@subst_m8_patch",
+    "R@subst_m8_patch",
+    "del#4($)>>subst_m8_patch"
+   ]
+  },
+  {
+   "id": "arc1_6d0160f0",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6e19193c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.117,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6ecd11f4",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.777,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_6fa7a44f",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.894,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x1",
+     2.8
+    ],
+    [
+     "geometry:tile_mirror2x1",
+     4.0
+    ],
+    [
+     "geometry:tile_mirror_rows2x1",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x1",
+    "outshape:const",
+    "pal:same",
+    "ntrain:4",
+    "bg:7",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile2x1",
+   "programs": [
+    "R@fit_tile1x2",
+    "vcat($,flip_v($))",
+    "deep:vcat($,flip_v($))",
+    "rankpal~tile_mirror2x1"
+   ]
+  },
+  {
+   "id": "arc1_7447852a",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.96,
+   "time": 14.698,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@2.by_c0",
+     6.5
+    ],
+    [
+     "objects:m4@2.by_c0",
+     6.5
+    ],
+    [
+     "objects:objwise[c8]>>c4@2.by_c0",
+     10.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "c4@2.by_c0",
+   "programs": [
+    "T@c4@2.by_r0",
+    "R@c4@2.by_r0",
+    "halo#4($)>>m4@2.by_c0",
+    "c8.all.out4($)>>c4@2.by_c0"
+   ]
+  },
+  {
+   "id": "arc1_7468f01a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.478,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:cut[nonbg>flip_h]",
+     4.5
+    ],
+    [
+     "compose:crop(flip_h($))",
+     6.7
+    ],
+    [
+     "compose:crop|flip_h",
+     7.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "cut[nonbg>flip_h]",
+   "programs": [
+    "crop(flip_h($))",
+    "crop|flip_h",
+    "compress|flip_h",
+    "largest|flip_h",
+    "crop(flip_h($))"
+   ]
+  },
+  {
+   "id": "arc1_74dd1130",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 9.396,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:transpose",
+     2.0
+    ],
+    [
+     "geometry:anti_transpose",
+     2.0
+    ],
+    [
+     "objects:chain:transpose($)",
+     5.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "transpose",
+   "programs": [
+    "anti_transpose($)",
+    "anti_transpose($)",
+    "del#3(anti_transpose($))"
+   ]
+  },
+  {
+   "id": "arc1_75b8110e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 18.43,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[even2x2/ordered|4>16]",
+     3.77
+    ],
+    [
+     "compose:T@ptab[even2x2/ordered|4>16]",
+     9.77
+    ],
+    [
+     "compose:R@ptab[even2x2/ordered|4>16]",
+     9.77
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:2x2",
+    "outshape:const",
+    "pal:same",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "ptab[even2x2/ordered|4>16]",
+   "programs": [
+    "T@ptab[even2x2/ordered|4>16]",
+    "R@ptab[even2x2/ordered|4>16]"
+   ]
+  },
+  {
+   "id": "arc1_760b3cac",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 16.094,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:subst_c8_mask",
+     6.0
+    ],
+    [
+     "objects:subst_c8_mask_bg",
+     6.0
+    ],
+    [
+     "objects:subst_c8_patch",
+     6.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "subst_c8_mask",
+   "programs": [
+    "T@subst_c8_mask",
+    "R@subst_c8_mask",
+    "flip_h($)>>subst_c8_mask_bg"
+   ]
+  },
+  {
+   "id": "arc1_776ffc46",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.884,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_7837ac64",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.789,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_7b6016b9",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.683,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc2[c4/4/color+border|4]",
+     6.1
+    ],
+    [
+     "objects:proc2[c4/4/size_rank+border|8]",
+     7.3
+    ],
+    [
+     "compose:cmap[0>3](fill#2($))",
+     8.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:mid"
+   ],
+   "program": "proc2[c4/4/size_rank+border|8]",
+   "programs": [
+    "cmap[0>3](fill#2($))",
+    "cmap[0>3,7>2](fill#7($))",
+    "cmap[0>3](fill#2($))",
+    "cmap[0>3,7>2](fill#7($))",
+    "deep:cmap[0>3](fill#2($))"
+   ]
+  },
+  {
+   "id": "arc1_7b7f7511",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.71,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:motif",
+     4.5
+    ],
+    [
+     "tiling:motif_ig#5",
+     5.0
+    ],
+    [
+     "tiling:crop_motif",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:1",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "motif",
+   "programs": [
+    "motif($)",
+    "motif($)",
+    "motif(del#5($))",
+    "deep:motif($)",
+    "motif($)>>id"
+   ]
+  },
+  {
+   "id": "arc1_7c008303",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.748,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_7ddcd7ec",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.795,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_7e0986d6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9363,
+   "time": 19.615,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     8.38
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     9.38
+    ],
+    [
+     "cellwise:ca_n4set",
+     9.58
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "ca_n4count_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_7f4411dc",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9,
+   "time": 19.599,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     8.36
+    ],
+    [
+     "cellwise:ca_n4set",
+     9.2
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     9.36
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "ca_n4count_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_7fe24cdd",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.798,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x2",
+     2.8
+    ],
+    [
+     "compose:rankpal~fit_tile2x2",
+     8.8
+    ],
+    [
+     "compose:T@fit_tile2x2",
+     8.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile2x2",
+   "programs": [
+    "rankpal~fit_tile2x2",
+    "T@fit_tile2x2",
+    "R@fit_tile2x2"
+   ]
+  },
+  {
+   "id": "arc1_80af3007",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.739,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_810b9b61",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.588,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_holes",
+     5.1
+    ],
+    [
+     "objects:c8@0.by_holes",
+     5.1
+    ],
+    [
+     "objects:m4@0.by_holes",
+     5.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c4@0.by_holes",
+   "programs": []
+  },
+  {
+   "id": "arc1_82819916",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:rankpal~ca_rowcol",
+     15.06
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rankpal~ca_rowcol",
+   "programs": [
+    "rankpal~ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_83302e8f",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.756,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc2[c4/1/color+shape_unique|5]",
+     6.8
+    ],
+    [
+     "objects:proc[c4/1/size|18]",
+     9.88
+    ],
+    [
+     "objects:proc2[c4/1/size_rank+square|17]",
+     10.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:mid"
+   ],
+   "program": "proc2[c4/1/color+shape_unique|5]",
+   "programs": [
+    "rankpal~c4@1.by_size",
+    "c8.mshp.box3(halo#4($))>>subst_c8_mask"
+   ]
+  },
+  {
+   "id": "arc1_834ec97d",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 18.088,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:mid",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_8403a5d5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_846bdb03",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.486,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:c8.small.crop($)>>subst_c8_patch",
+     14.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "c8.small.crop($)>>subst_c8_patch",
+   "programs": [
+    "c8.small.crop($)>>subst_c8_patch"
+   ]
+  },
+  {
+   "id": "arc1_855e0971",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:4",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_85c4e7cd",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0204,
+   "time": 19.804,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:rows@4.by_ncolors+size",
+     9.0
+    ],
+    [
+     "objects:cols@4.by_ncolors+size",
+     9.0
+    ],
+    [
+     "objects:rows@None.by_ncolors+size",
+     9.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:4",
+    "in:mid",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "rows@4.by_ncolors+size",
+   "programs": []
+  },
+  {
+   "id": "arc1_868de0fa",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.84,
+   "time": 19.748,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     6.2
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     6.2
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "c4@1.by_h",
+   "programs": []
+  },
+  {
+   "id": "arc1_88a10436",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.617,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:stamp_m800",
+     6.2
+    ],
+    [
+     "compose:rankpal~stamp_m800",
+     11.2
+    ],
+    [
+     "compose:T@stamp_m800",
+     11.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "stamp_m800",
+   "programs": [
+    "rankpal~stamp_m800",
+    "T@stamp_m800",
+    "R@stamp_m800"
+   ]
+  },
+  {
+   "id": "arc1_890034e9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.794,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_8a004b2b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.534,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:c8.mcol.crop($)>>subst_m8_patch",
+     14.2
+    ],
+    [
+     "compose:del#1(c8.mcol.crop($))>>subst_m8_patch",
+     15.7
+    ],
+    [
+     "compose:del#8(c8.mcol.crop($))>>subst_m8_patch",
+     15.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "c8.mcol.crop($)>>subst_m8_patch",
+   "programs": [
+    "c8.mcol.crop($)>>subst_m8_patch",
+    "del#1(c8.mcol.crop($))>>subst_m8_patch",
+    "del#8(c8.mcol.crop($))>>subst_m8_patch",
+    "del#3(c8.mcol.crop($))>>subst_m8_patch"
+   ]
+  },
+  {
+   "id": "arc1_8d510a79",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.92,
+   "time": 19.62,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rays",
+     11.1
+    ],
+    [
+     "cellwise:ca_rays_lax",
+     12.1
+    ],
+    [
+     "partition:panelwise[even1x2]>>ca_rays",
+     15.04
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "ca_rays_lax",
+   "programs": [
+    "T@ca_rays",
+    "R@ca_rays"
+   ]
+  },
+  {
+   "id": "arc1_8e1813be",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.775,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_8e5a5113",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 18.769,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_8efcae92",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.478,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:cut[c4.holes]",
+     4.5
+    ],
+    [
+     "select:nth[m4/col/1/patch]",
+     4.9
+    ],
+    [
+     "select:m8.nth_left+1",
+     6.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "cut[c4.holes]",
+   "programs": [
+    "crop|m8.nth_left+1",
+    "dedup|m8.nth_left+1",
+    "T@m8.nth_top+1",
+    "R@m8.nth_top+1"
+   ]
+  },
+  {
+   "id": "arc1_90f3ed37",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.789,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_91413438",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 9.427,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_91714a58",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9531,
+   "time": 19.796,
+   "solver": "compose",
+   "hyps": [
+    [
+     "objects:objwise[m4]>>ca_n8mask",
+     11.8
+    ],
+    [
+     "compose:keep_big($)>>panelmap_even2x2_grid",
+     13.7
+    ],
+    [
+     "objects:objwise[m8]>>lookup_shape",
+     14.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "del#5(keep_big($))>>panelmap_even2x2_grid",
+   "programs": [
+    "keep_big($)>>panelmap_even2x2_grid",
+    "del#5(keep_big($))>>panelmap_even2x2_grid",
+    "sh+0+1(keep_big($))>>panelmap_even2x2_grid"
+   ]
+  },
+  {
+   "id": "arc1_9172f3a0",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 7.389,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:upscale3x3",
+     2.5
+    ],
+    [
+     "tiling:blockmap3x3",
+     3.5
+    ],
+    [
+     "geometry:upscale_by_nobj",
+     5.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:3x3",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "upscale3x3",
+   "programs": [
+    "upx3($)",
+    "down3x3^id",
+    "down3x3^$",
+    "upx3($)"
+   ]
+  },
+  {
+   "id": "arc1_93b581b8",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.866,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_941d9a10",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.79,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_94f9d214",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.132,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[even2x1/ordered|2>4]",
+     3.53
+    ],
+    [
+     "partition:even2x1.nor->2",
+     6.0
+    ],
+    [
+     "compose:T@ptab[even1x2/ordered|2>4]",
+     9.53
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:2x1",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "ptab[even2x1/ordered|2>4]",
+   "programs": [
+    "T@ptab[even1x2/ordered|2>4]",
+    "R@ptab[even1x2/ordered|2>4]",
+    "T@even1x2.nor->2",
+    "R@even1x2.nor->2",
+    "cmap[0>2,1>0,3>0](or(half_bottom($),half_top($)))",
+    "deep:cmap[0>2,1>0,3>0](or(half_bottom($),half_top($)))"
+   ]
+  },
+  {
+   "id": "arc1_952a094c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_9565186b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 4.395,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/auto/all|1]",
+     5.18
+    ],
+    [
+     "objects:c4@None.by_holes",
+     5.55
+    ],
+    [
+     "objects:c4@None.by_ncolors",
+     5.55
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "proc[c4/auto/all|1]",
+   "programs": []
+  },
+  {
+   "id": "arc1_95990924",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.609,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n8mask",
+     5.5
+    ],
+    [
+     "cellwise:ca_n8fg",
+     5.84
+    ],
+    [
+     "cellwise:ca_n8mask_lax",
+     6.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "ca_n8fg",
+   "programs": []
+  },
+  {
+   "id": "arc1_97999447",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.64,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:stripe_right#5",
+     6.6
+    ],
+    [
+     "compose:rankpal~stripe_right#6",
+     11.6
+    ],
+    [
+     "compose:T@stripe_down#5",
+     11.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "stripe_right#5",
+   "programs": [
+    "rankpal~stripe_right#6",
+    "T@stripe_down#5",
+    "R@stripe_down#5"
+   ]
+  },
+  {
+   "id": "arc1_98cf29f8",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.777,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:bbox_fill($)>>ca_objrel",
+     22.04
+    ],
+    [
+     "compose:del#7(bbox_fill($))>>ca_objrel",
+     23.64
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "bbox_fill($)>>ca_objrel",
+   "programs": [
+    "bbox_fill($)>>ca_objrel",
+    "del#7(bbox_fill($))>>ca_objrel"
+   ]
+  },
+  {
+   "id": "arc1_99fa7670",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.349,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_9d9215db",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.776,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_9dfd6313",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.045,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:transpose",
+     2.0
+    ],
+    [
+     "geometry:anti_transpose",
+     2.0
+    ],
+    [
+     "objects:chain:transpose($)",
+     5.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "transpose",
+   "programs": [
+    "anti_transpose($)",
+    "anti_transpose($)"
+   ]
+  },
+  {
+   "id": "arc1_9edfc990",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.252,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:halo#1($)>>subst_m8_patch_bg",
+     13.9
+    ],
+    [
+     "compose:fill#2(halo#1($))>>subst_m8_patch_bg",
+     15.7
+    ],
+    [
+     "compose:fill#3(halo#1($))>>subst_m8_patch_bg",
+     15.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "halo#1($)>>subst_m8_patch_bg",
+   "programs": [
+    "halo#1($)>>subst_m8_patch_bg",
+    "fill#2(halo#1($))>>subst_m8_patch_bg",
+    "fill#3(halo#1($))>>subst_m8_patch_bg",
+    "fill#4(halo#1($))>>subst_m8_patch_bg",
+    "fill#5(halo#1($))>>subst_m8_patch_bg",
+    "halo#1(fill#1($))>>subst_m8_patch_bg",
+    "fill#1(halo#1($))>>subst_m8_patch_bg",
+    "outline(halo#1($))>>subst_m8_patch"
+   ]
+  },
+  {
+   "id": "arc1_a1570a43",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.805,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[color/0/color|2]",
+     5.76
+    ],
+    [
+     "objects:move_c8_by_shape",
+     6.0
+    ],
+    [
+     "objects:move_c4_by_shape",
+     6.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "proc[color/0/color|2]",
+   "programs": []
+  },
+  {
+   "id": "arc1_a3df8b1e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 14.115,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_a416b8f3",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 9.763,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile1x2",
+     2.8
+    ],
+    [
+     "geometry:tile1x2",
+     3.0
+    ],
+    [
+     "tiling:ext[mirror/wrap]",
+     3.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:1x2",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile1x2",
+   "programs": [
+    "half_bottom(tile2($))",
+    "rankpal~tile1x2"
+   ]
+  },
+  {
+   "id": "arc1_a48eeaf7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.066,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/0/color|2]",
+     5.66
+    ],
+    [
+     "sequence:moveanchor_c81",
+     5.8
+    ],
+    [
+     "sequence:moveanchor_c80",
+     5.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "proc[c4/0/color|2]",
+   "programs": [
+    "T@moveanchor_c81"
+   ]
+  },
+  {
+   "id": "arc1_a61ba2ce",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.938,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_a699fb00",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.99,
+   "time": 18.0,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     4.08
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     5.08
+    ],
+    [
+     "sequence:connect_g1#2",
+     6.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_n4count",
+   "programs": []
+  },
+  {
+   "id": "arc1_a78176bb",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.796,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_a79310a0",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 10.57,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:sh+1+0(paint#2($))",
+     7.9
+    ],
+    [
+     "compose:sh+1+0(c8.all.box2($))",
+     8.9
+    ],
+    [
+     "compose:sh+1+0($)>>ca_color",
+     9.24
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sym:in"
+   ],
+   "program": "sh+1+0(paint#2($))",
+   "programs": [
+    "sh+1+0(paint#2($))",
+    "sh+1+0(c8.all.box2($))",
+    "sh+1+0($)>>ca_color",
+    "sh+1+0(paint#2($))",
+    "deep:sh+1+0(paint#2($))",
+    "sh+1+0(c8.all.box2($))",
+    "deep:sh+1+0(c8.all.box2($))",
+    "paint#2(sh+1+0($))>>id"
+   ]
+  },
+  {
+   "id": "arc1_a85d4709",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.416,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:linemap0",
+     5.5
+    ],
+    [
+     "tiling:panelmap_even3x1_grid",
+     5.5
+    ],
+    [
+     "partition:panelwise[even3x1]>>ca_n4",
+     9.18
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sym:in"
+   ],
+   "program": "linemap0",
+   "programs": [
+    "T@linemap1",
+    "R@linemap1",
+    "halo#4(paint#3($))>>linemap0",
+    "halo#3(halo#4($))>>linemap0",
+    "c8.small.rec3(halo#4($))>>linemap0"
+   ]
+  },
+  {
+   "id": "arc1_a87f7484",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.545,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c8.max_size.patch",
+     4.0
+    ],
+    [
+     "select:c8.max_density.patch",
+     4.0
+    ],
+    [
+     "select:c8.unique_shape.patch",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "c8.max_size.patch",
+   "programs": []
+  },
+  {
+   "id": "arc1_a8c38be5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.72,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_a9f96cdd",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.983,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n8fg",
+     5.7
+    ],
+    [
+     "cellwise:ca_n8fg_lax",
+     6.7
+    ],
+    [
+     "compose:T@ca_n8fg",
+     10.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "ca_n8fg",
+   "programs": [
+    "T@ca_n8fg",
+    "R@ca_n8fg"
+   ]
+  },
+  {
+   "id": "arc1_ac0a08a4",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 9.467,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:upscale_by_ncolors_nb",
+     5.0
+    ],
+    [
+     "geometry:upscale_by_nnz",
+     5.0
+    ],
+    [
+     "geometry:upscale_by_nobj",
+     5.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "upscale_by_ncolors_nb",
+   "programs": []
+  },
+  {
+   "id": "arc1_aedd82e4",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.3,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_is_smallest",
+     5.1
+    ],
+    [
+     "objects:m4@0.by_is_smallest",
+     5.1
+    ],
+    [
+     "objects:c4@0.by_w",
+     5.15
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "c4@0.by_is_smallest",
+   "programs": []
+  },
+  {
+   "id": "arc1_af902bf9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.67,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_b1948b0a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 9.938,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_color",
+     2.04
+    ],
+    [
+     "cellwise:ca_color_lax",
+     3.04
+    ],
+    [
+     "cellwise:ca_rcuni",
+     3.54
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:7",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "ca_color",
+   "programs": []
+  },
+  {
+   "id": "arc1_b230c067",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.92,
+   "time": 19.475,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size_rank",
+     5.1
+    ],
+    [
+     "objects:c4@0.by_is_largest",
+     5.1
+    ],
+    [
+     "objects:c4@0.by_is_smallest",
+     5.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c4@0.by_size_rank",
+   "programs": []
+  },
+  {
+   "id": "arc1_b27ca6d3",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8971,
+   "time": 19.648,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:chain:c8.big.out3($)",
+     7.2
+    ],
+    [
+     "objects:chain:c8.wide.out3($)",
+     7.4
+    ],
+    [
+     "compose:c8.big.out3($)",
+     7.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "chain:c8.big.out3($)",
+   "programs": [
+    "c8.big.out3($)",
+    "c8.wide.out3($)",
+    "c8.big.out3($)",
+    "c8.wide.out3($)",
+    "deep:c8.big.out3($)",
+    "deep:c8.wide.out3($)"
+   ]
+  },
+  {
+   "id": "arc1_b6afb2da",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.626,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n4count",
+     4.12
+    ],
+    [
+     "cellwise:ca_n4set",
+     4.74
+    ],
+    [
+     "cellwise:ca_n4count_lax",
+     5.12
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_n4count",
+   "programs": []
+  },
+  {
+   "id": "arc1_b775ac94",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.79,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_b8cdaf2b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.802,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_b91ae062",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.669,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:upscale_by_ncolors_nb",
+     5.0
+    ],
+    [
+     "select:count:obj_color.scale",
+     5.5
+    ],
+    [
+     "select:count:colors.scale",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:same",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "upscale_by_ncolors_nb",
+   "programs": [
+    "rankpal~upscale_by_ncolors_nb",
+    "T@upscale_by_ncolors_nb",
+    "R@upscale_by_ncolors_nb"
+   ]
+  },
+  {
+   "id": "arc1_b9b7f026",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.537,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.max_holes.cell",
+     5.5
+    ],
+    [
+     "select:c4.min_density.cell",
+     5.5
+    ],
+    [
+     "select:c8.max_holes.cell",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "c4.max_holes.cell",
+   "programs": []
+  },
+  {
+   "id": "arc1_ba26e723",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 17.139,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_mod3",
+     4.3
+    ],
+    [
+     "cellwise:ca_mod3_lax",
+     5.3
+    ],
+    [
+     "cellwise:ca_colpos",
+     6.36
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes",
+    "sym:in"
+   ],
+   "program": "ca_mod3",
+   "programs": []
+  },
+  {
+   "id": "arc1_bc1d5164",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 13.89,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_bda2d7a6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0938,
+   "time": 19.585,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_crank",
+     7.68
+    ],
+    [
+     "cellwise:ca_ring",
+     8.2
+    ],
+    [
+     "cellwise:ca_crank_lax",
+     8.68
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "ca_crank_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_beb8660c",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 16.514,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:sortrows(grav_right($))",
+     8.9
+    ],
+    [
+     "enumerate:sortrows(grav_right($))",
+     10.4
+    ],
+    [
+     "enumerate:deep:sortrows(grav_right($))",
+     10.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "sortrows(grav_right($))",
+   "programs": [
+    "sortrows(grav_right($))",
+    "sortrows(grav_right($))",
+    "deep:sortrows(grav_right($))",
+    "sortrows(grav_right($))>>id",
+    "rankpal~sortrows(grav_right($))",
+    "T@sortcols(grav_down($))",
+    "refine:flip_h>>sortrows(grav_right())",
+    "sortrows(grav_right($))>>ca_color"
+   ]
+  },
+  {
+   "id": "arc1_c0f76784",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.692,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     5.8
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     5.8
+    ],
+    [
+     "objects:subst_m8_patch",
+     5.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "subst_m8_mask",
+   "programs": []
+  },
+  {
+   "id": "arc1_c1d99e64",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.825,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rcuni",
+     7.64
+    ],
+    [
+     "cellwise:ca_rcempty",
+     7.64
+    ],
+    [
+     "cellwise:ca_rcuni_lax",
+     8.64
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "ca_rcuni_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_c3e719e8",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.414,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:stamp[top/id/0]",
+     4.2
+    ],
+    [
+     "compose:T@stamp[top/id/0]",
+     9.7
+    ],
+    [
+     "compose:R@stamp[top/id/0]",
+     9.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:3x3",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:3",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "stamp[top/id/0]",
+   "programs": [
+    "T@stamp[top/id/0]",
+    "R@stamp[top/id/0]",
+    "c8.all.rec0(upx3($))>>subst_c8_mask",
+    "c8.edge.rec0(upx3($))>>subst_c8_mask",
+    "c8.ucol.rec0(upx3($))>>subst_m8_mask_bg",
+    "c8.all.rec0(upx3($))>>panelmap_even3x3_grid",
+    "c8.edge.rec0(upx3($))>>panelmap_even3x3_grid"
+   ]
+  },
+  {
+   "id": "arc1_c3f564a4",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.867,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#0",
+     3.0
+    ],
+    [
+     "tiling:period[both/bg]",
+     3.3
+    ],
+    [
+     "symmetry:repair#0_lax",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "repair#0",
+   "programs": []
+  },
+  {
+   "id": "arc1_c444b776",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8258,
+   "time": 19.657,
+   "solver": "partition",
+   "hyps": [
+    [
+     "objects:proc[m4/4/shape_freq|2]",
+     8.16
+    ],
+    [
+     "partition:panel[sep#4|tbl]>>fillper#0",
+     9.0
+    ],
+    [
+     "partition:panel[sep#4|tbl]>>ray8_stop",
+     9.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "panel[sep#4|tbl]>>fillper#0",
+   "programs": []
+  },
+  {
+   "id": "arc1_c59eb873",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.523,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:upscale2x2",
+     2.5
+    ],
+    [
+     "tiling:blockmap2x2",
+     3.5
+    ],
+    [
+     "compose:upx2($)",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "upscale2x2",
+   "programs": [
+    "upx2($)",
+    "down2x2^id",
+    "down2x2^ca_color",
+    "down2x2^$",
+    "down2x2^ca_color_lax",
+    "upx2($)"
+   ]
+  },
+  {
+   "id": "arc1_c909285e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.6,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.unique_color.crop",
+     4.2
+    ],
+    [
+     "select:c8.unique_color.crop",
+     4.2
+    ],
+    [
+     "select:color.min_size.crop",
+     4.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": "c4.unique_color.crop",
+   "programs": []
+  },
+  {
+   "id": "arc1_c9e6f938",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 10.295,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile1x2",
+     2.8
+    ],
+    [
+     "geometry:tile_mirror1x2",
+     4.0
+    ],
+    [
+     "geometry:tile_mirror_cols1x2",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:1x2",
+    "outshape:const",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "fit_tile1x2",
+   "programs": [
+    "hcat($,flip_h($))",
+    "deep:hcat($,flip_h($))",
+    "T@tile_mirror2x1",
+    "R@tile_mirror2x1"
+   ]
+  },
+  {
+   "id": "arc1_c9f8e694",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.5833,
+   "time": 19.675,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "tiling:linemap1",
+     5.5
+    ],
+    [
+     "cellwise:ca_rowcol",
+     9.36
+    ],
+    [
+     "cellwise:ca_rowcol_lax",
+     10.36
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "ca_rowcol_lax",
+   "programs": [
+    "rankpal~linemap1",
+    "T@linemap0",
+    "R@linemap0",
+    "rankpal~ca_rowcol",
+    "T@ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_caa06a1f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:3",
+    "in:mid",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_ce9e57f2",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.622,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_c8_mask",
+     6.1
+    ],
+    [
+     "objects:subst_c8_mask_bg",
+     6.1
+    ],
+    [
+     "objects:subst_c8_patch",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "objwise[c8]>>ca_quadpos",
+   "programs": []
+  },
+  {
+   "id": "arc1_cf98881b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.929,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[sep#2/ordered|3>8]",
+     3.46
+    ],
+    [
+     "tiling:rep[+0+5/0b]",
+     4.35
+    ],
+    [
+     "partition:sep#2.overlay0",
+     6.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "ptab[sep#2/ordered|3>8]",
+   "programs": [
+    "T@ptab[sep#2/ordered|3>8]",
+    "R@ptab[sep#2/ordered|3>8]",
+    "T@rep[+5+0/0b]",
+    "R@rep[+5+0/0b]",
+    "T@sep#2.overlay0"
+   ]
+  },
+  {
+   "id": "arc1_d037b0a7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.168,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:rep[+1+0/0]",
+     4.15
+    ],
+    [
+     "sequence:ray1_down",
+     5.5
+    ],
+    [
+     "partition:panelwise[even1x3]>>rep[+1+0/0]",
+     8.65
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "rep[+1+0/0]",
+   "programs": [
+    "rankpal~rep[+1+0/0]",
+    "T@rep[+0+1/0]",
+    "R@rep[+0-1/0]"
+   ]
+  },
+  {
+   "id": "arc1_d0f5fe59",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 15.997,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d10ecb37",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.942,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:ext[mirror/mirror]",
+     3.3
+    ],
+    [
+     "tiling:extend2x2",
+     4.5
+    ],
+    [
+     "select:win2x2.modal_t",
+     5.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "ext[mirror/mirror]",
+   "programs": [
+    "rankpal~ext[mirror/mirror]",
+    "T@ext[mirror/mirror]",
+    "rankpal~extend2x2"
+   ]
+  },
+  {
+   "id": "arc1_d22278a0",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.8,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d23f8c26",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 16.071,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d2abd087",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.69,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size",
+     5.3
+    ],
+    [
+     "objects:c8@0.by_size",
+     5.3
+    ],
+    [
+     "objects:m4@0.by_size",
+     5.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "c4@0.by_size",
+   "programs": []
+  },
+  {
+   "id": "arc1_d364b489",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.638,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_n8fg",
+     5.7
+    ],
+    [
+     "cellwise:ca_n8fg_lax",
+     6.7
+    ],
+    [
+     "cellwise:ca_n4",
+     9.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_n8fg_lax",
+   "programs": []
+  },
+  {
+   "id": "arc1_d406998b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 18.956,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d4469b4b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.171,
+   "solver": "colormap",
+   "hyps": [
+    [
+     "colormap:lookup_maxcolor",
+     9.0
+    ],
+    [
+     "compose:T@lookup_maxcolor",
+     15.0
+    ],
+    [
+     "compose:R@lookup_maxcolor",
+     15.0
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "lookup_maxcolor",
+   "programs": [
+    "T@lookup_maxcolor",
+    "R@lookup_maxcolor",
+    "sh+0-1(trim($))>>lookup_maxcolor"
+   ]
+  },
+  {
+   "id": "arc1_d4a91cb9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.78,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d5d6de2d",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.696,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:objwise[c8]>>ca_color",
+     6.04
+    ],
+    [
+     "objects:objwise[m8]>>ca_color",
+     6.04
+    ],
+    [
+     "objects:objwise[c4]>>ca_color",
+     6.04
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "objwise[c8]>>ca_color",
+   "programs": [
+    "del#2(fill#3($))"
+   ]
+  },
+  {
+   "id": "arc1_d631b094",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 9.812,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:bars01",
+     6.5
+    ],
+    [
+     "sequence:bars00",
+     6.5
+    ],
+    [
+     "objects:count_max_size_row_modal",
+     8.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "bars01",
+   "programs": [
+    "crop|bars01",
+    "crop|bars00"
+   ]
+  },
+  {
+   "id": "arc1_d687bc17",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.784,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d6ad076f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d89b689b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_d9f24cd1",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 18.083,
+   "solver": null,
+   "hyps": [
+    [
+     "compose:connect($)>>subst_c8_mask_bg",
+     13.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "connect($)>>subst_c8_mask_bg",
+   "programs": [
+    "connect($)>>subst_c8_mask_bg"
+   ]
+  },
+  {
+   "id": "arc1_d9fac9be",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.0,
+   "time": 19.543,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.majority_shape.patch",
+     4.0
+    ],
+    [
+     "select:c8.majority_shape.patch",
+     4.0
+    ],
+    [
+     "select:c4.majority_shape.crop",
+     4.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "c4.majority_shape.patch",
+   "programs": []
+  },
+  {
+   "id": "arc1_dae9d2b5",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.149,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[even1x2/ordered|2>4]",
+     3.53
+    ],
+    [
+     "partition:even1x2.or->6",
+     6.0
+    ],
+    [
+     "compose:T@ptab[even2x1/ordered|2>4]",
+     9.53
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:1x2",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "ptab[even1x2/ordered|2>4]",
+   "programs": [
+    "T@ptab[even2x1/ordered|2>4]",
+    "R@ptab[even2x1/ordered|2>4]",
+    "T@even2x1.or->6",
+    "R@even2x1.or->6",
+    "cmap[3>6,4>6](or(half_left($),half_right($)))",
+    "deep:cmap[3>6,4>6](or(half_left($),half_right($)))"
+   ]
+  },
+  {
+   "id": "arc1_dbc1a6ce",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.826,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect#8",
+     6.0
+    ],
+    [
+     "cellwise:ca_rays",
+     7.5
+    ],
+    [
+     "cellwise:ca_rays_lax",
+     8.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "connect#8",
+   "programs": [
+    "T@connect#8",
+    "R@connect#8",
+    "or($,paint#8(connect($)))",
+    "T@ca_rays",
+    "R@ca_rays"
+   ]
+  },
+  {
+   "id": "arc1_dc0a314f",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 18.123,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:patch#3",
+     3.2
+    ],
+    [
+     "symmetry:patch#3_lax",
+     4.2
+    ],
+    [
+     "symmetry:patch_loose#3",
+     5.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:5",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "patch#3",
+   "programs": [
+    "T@patch#3",
+    "R@patch#3"
+   ]
+  },
+  {
+   "id": "arc1_dc1df850",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.423,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:chain:c8.mcol.out1($)",
+     7.5
+    ],
+    [
+     "compose:c8.mcol.out1($)",
+     7.9
+    ],
+    [
+     "enumerate:c8.mcol.out1($)",
+     9.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "chain:c8.mcol.out1($)",
+   "programs": [
+    "c8.mcol.out1($)",
+    "c8.mcol.out1($)",
+    "deep:c8.mcol.out1($)",
+    "c8.mcol.out1($)>>id",
+    "del#5(c8.mcol.out1($))",
+    "del#7(c8.mcol.out1($))",
+    "T@c8.mcol.out1($)"
+   ]
+  },
+  {
+   "id": "arc1_de1cd16c",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.58,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.max_holes.cell",
+     5.5
+    ],
+    [
+     "select:c8.max_holes.cell",
+     5.5
+    ],
+    [
+     "select:color.max_holes.cell",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "c4.max_holes.cell",
+   "programs": [
+    "dedup|c4.max_holes.cell",
+    "dedup|c8.max_holes.cell"
+   ]
+  },
+  {
+   "id": "arc1_ded97339",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.219,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect",
+     5.0
+    ],
+    [
+     "sequence:connect#8",
+     6.0
+    ],
+    [
+     "compose:connect($)",
+     6.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "connect",
+   "programs": [
+    "connect($)",
+    "connect($)",
+    "deep:connect($)",
+    "connect($)>>id",
+    "connect($)>>ca_color"
+   ]
+  },
+  {
+   "id": "arc1_e26a3af2",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:objwise[m8]>>lookup_shape",
+     14.0
+    ],
+    [
+     "objects:objwise[m4]>>lookup_shape",
+     14.0
+    ],
+    [
+     "compose:denoise($)>>ca_n4set",
+     18.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:2",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "objwise[m8]>>lookup_shape",
+   "programs": [
+    "denoise($)>>ca_n4set",
+    "fill#8(denoise($))>>ca_n4set",
+    "fill#3(denoise($))>>ca_n4set",
+    "complete(denoise($))>>ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc1_e48d4e1a",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_e509e548",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8036,
+   "time": 19.678,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_objshape",
+     10.34
+    ],
+    [
+     "cellwise:ca_objshape_lax",
+     11.34
+    ],
+    [
+     "objects:objwise[c8]>>ca_objshape",
+     14.34
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_objshape_lax",
+   "programs": [
+    "T@ca_objshape",
+    "R@ca_objshape"
+   ]
+  },
+  {
+   "id": "arc1_e50d258f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 17.861,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_e73095fd",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_e76a88a6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.46,
+   "time": 19.671,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     5.7
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     5.7
+    ],
+    [
+     "objects:subst_m8_size",
+     5.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "subst_m8_size",
+   "programs": []
+  },
+  {
+   "id": "arc1_e8593010",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.678,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/5/size|3]",
+     6.04
+    ],
+    [
+     "objects:c4@5.by_size",
+     6.15
+    ],
+    [
+     "objects:m4@5.by_size",
+     6.15
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "proc[c4/5/size|3]",
+   "programs": []
+  },
+  {
+   "id": "arc1_e8dc4411",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:8",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_e9afcf9a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.405,
+   "solver": "compose",
+   "hyps": [
+    [
+     "tiling:panelmap_even1x3_grid",
+     5.5
+    ],
+    [
+     "tiling:panelmap_even2x3_grid",
+     5.5
+    ],
+    [
+     "cellwise:ca_parity",
+     7.66
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:3",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "dedup|fit_tile1x6",
+   "programs": [
+    "dedup|fit_tile1x6"
+   ]
+  },
+  {
+   "id": "arc1_ea32f347",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.774,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size_rank",
+     5.15
+    ],
+    [
+     "objects:c8@0.by_size_rank",
+     5.15
+    ],
+    [
+     "objects:m4@0.by_size_rank",
+     5.15
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c4@0.by_size_rank",
+   "programs": []
+  },
+  {
+   "id": "arc1_ed36ccf7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 8.856,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:rot270",
+     2.0
+    ],
+    [
+     "objects:chain:rot270($)",
+     5.1
+    ],
+    [
+     "tiling:extend_rot270",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "rot270",
+   "programs": [
+    "rot270($)",
+    "crop(rot270($))",
+    "rot270($)"
+   ]
+  },
+  {
+   "id": "arc1_ef135b50",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_f25fbde4",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.862,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:upx2(crop($))",
+     7.3
+    ],
+    [
+     "compose:crop|upscale2x2",
+     8.0
+    ],
+    [
+     "compose:compress|upscale2x2",
+     8.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "upx2(crop($))",
+   "programs": [
+    "upx2(crop($))",
+    "crop|upscale2x2",
+    "compress|upscale2x2",
+    "largest|upscale2x2",
+    "crop|blockmap2x2",
+    "crop|blockmap2x2_p",
+    "compress|blockmap2x2",
+    "compress|blockmap2x2_p"
+   ]
+  },
+  {
+   "id": "arc1_f25ffba3",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 16.949,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:union_flip_v",
+     3.2
+    ],
+    [
+     "geometry:union_flip_v_rev",
+     3.4
+    ],
+    [
+     "objects:proc[c4/0/all|1]",
+     5.88
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "union_flip_v",
+   "programs": [
+    "crop|fit_tile2x1",
+    "compress|fit_tile2x1",
+    "rankpal~union_flip_v"
+   ]
+  },
+  {
+   "id": "arc1_f2829549",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.56,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[sep#1/ordered|2>4]",
+     3.38
+    ],
+    [
+     "partition:sep#1.nor->3",
+     5.5
+    ],
+    [
+     "compose:T@ptab[sep#1/ordered|2>4]",
+     9.38
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "ptab[sep#1/ordered|2>4]",
+   "programs": [
+    "T@ptab[sep#1/ordered|2>4]",
+    "R@ptab[sep#1/ordered|2>4]",
+    "T@sep#1.nor->3",
+    "R@sep#1.nor->3",
+    "cmap[0>3,5>0,7>0](or(half_left($),half_right($)))",
+    "deep:cmap[0>3,5>0,7>0](or(half_left($),half_right($)))"
+   ]
+  },
+  {
+   "id": "arc1_f35d900a",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.8,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_f76d97a5",
+   "solved": 0,
+   "solved2": 1,
+   "partial": 0.0,
+   "time": 14.438,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:rows@5.by_color",
+     6.8
+    ],
+    [
+     "compose:rankpal~ca_color",
+     7.04
+    ],
+    [
+     "objects:rows@None.by_color",
+     7.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:5",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "rows@5.by_color",
+   "programs": [
+    "rankpal~ca_color"
+   ]
+  },
+  {
+   "id": "arc1_f8b3ba0a",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.685,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:rankpal~const",
+     18.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rankpal~const",
+   "programs": [
+    "rankpal~const"
+   ]
+  },
+  {
+   "id": "arc1_f8ff0b80",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.528,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:sum[c8/size/col]",
+     4.9
+    ],
+    [
+     "counting:gather[row/freq]",
+     5.0
+    ],
+    [
+     "compose:rot90($)>>gather[row/freq]",
+     10.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "iratio:4x12",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "sum[c8/size/col]",
+   "programs": [
+    "rot90($)>>gather[row/freq]",
+    "rot180($)>>gather[row/freq]",
+    "rot270($)>>gather[row/freq]",
+    "flip_h($)>>gather[row/freq]",
+    "flip_v($)>>gather[row/freq]",
+    "transpose($)>>gather[row/freq]"
+   ]
+  },
+  {
+   "id": "arc1_f9012d9b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.36,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:patch#0",
+     3.2
+    ],
+    [
+     "symmetry:patch#0_lax",
+     4.2
+    ],
+    [
+     "symmetry:patch_loose#0",
+     5.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "patch#0",
+   "programs": [
+    "rankpal~patch#0",
+    "T@patch#0",
+    "R@patch#0"
+   ]
+  },
+  {
+   "id": "arc1_fcb5c309",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.5625,
+   "time": 19.545,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:largest|c4@0.by_n_contains",
+     9.2
+    ],
+    [
+     "compose:largest|c8@0.by_n_contains",
+     9.2
+    ],
+    [
+     "compose:largest|g2@0.by_n_contains",
+     9.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "largest|c4@0.by_n_contains",
+   "programs": [
+    "largest|c4@0.by_n_contains",
+    "largest|c8@0.by_n_contains",
+    "largest|g2@0.by_n_contains",
+    "largest|c4@0.by_size+color",
+    "largest|c4@0.by_color+holes",
+    "largest|c4@0.by_color+shape_freq",
+    "largest|c4@0.by_color+border",
+    "largest|c4@0.by_container+color"
+   ]
+  },
+  {
+   "id": "arc1_fcc82909",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.789,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_feca6190",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 9.252,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "pal:same",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_ff805c23",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.644,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:patch#1",
+     3.2
+    ],
+    [
+     "symmetry:patch#1_lax",
+     4.2
+    ],
+    [
+     "symmetry:patch_loose#1",
+     5.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": "patch#1",
+   "programs": [
+    "T@patch#1",
+    "R@patch#1"
+   ]
+  },
+  {
+   "id": "arc2_009d5c81",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8673,
+   "time": 19.81,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c8@0.by_w",
+     5.2
+    ],
+    [
+     "objects:m8@0.by_w",
+     5.2
+    ],
+    [
+     "objects:color@0.by_w",
+     5.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "c8@0.by_w",
+   "programs": []
+  },
+  {
+   "id": "arc2_00d62c1b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.457,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fill_holes#4",
+     3.5
+    ],
+    [
+     "objects:proc[c4/3/rect|2]",
+     5.36
+    ],
+    [
+     "sequence:fill_enclosed0#4",
+     5.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "fill_holes#4",
+   "programs": []
+  },
+  {
+   "id": "arc2_00dbd492",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.813,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/2/__shape__|7]",
+     6.7
+    ],
+    [
+     "objects:objwise[c8]>>ca_ccount",
+     7.97
+    ],
+    [
+     "objects:objwise[m8]>>ca_ccount",
+     7.97
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "objwise[c8]>>ca_ccount",
+   "programs": [
+    "fill#4($)>>c4@0.by_size"
+   ]
+  },
+  {
+   "id": "arc2_017c7c7b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 11.313,
+   "solver": "arch_math",
+   "hyps": [
+    [
+     "arch_math:periodic_rows_3_2_recolour(0>0,1>2)",
+     10.45
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "periodic_rows_3_2_recolour(0>0,1>2)",
+   "programs": []
+  },
+  {
+   "id": "arc2_05269061",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 17.278,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:filldiag+1#0",
+     4.7
+    ],
+    [
+     "compose:rankpal~filldiag+1#0",
+     10.2
+    ],
+    [
+     "compose:T@filldiag+1#0",
+     10.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "filldiag+1#0",
+   "programs": [
+    "rankpal~filldiag+1#0",
+    "T@filldiag+1#0",
+    "R@filldiag-1#0"
+   ]
+  },
+  {
+   "id": "arc2_05a7bcf2",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.783,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_05f2a901",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.342,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/0/color|2]",
+     5.66
+    ],
+    [
+     "objects:proc2[c4/0/color+border|3]",
+     5.8
+    ],
+    [
+     "objects:proc[c4/0/size|4]",
+     6.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "proc[c4/0/color|2]",
+   "programs": []
+  },
+  {
+   "id": "arc2_0692e18c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.7531,
+   "time": 13.258,
+   "solver": "compose",
+   "hyps": [
+    [
+     "tiling:blockmap3x3",
+     3.5
+    ],
+    [
+     "tiling:blockmap3x3_p",
+     3.5
+    ],
+    [
+     "partition:pdict[even3x3/content/same|4]",
+     4.05
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:3x3",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "del#3(upx3($))>>panelmap_even3x3_grid",
+   "programs": [
+    "T@blockmap3x3",
+    "R@blockmap3x3",
+    "T@pdict[even3x3/content/same|4]",
+    "R@pdict[even3x3/content/same|4]"
+   ]
+  },
+  {
+   "id": "arc2_06df4c85",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.792,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_070dd51e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.555,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:T@connect",
+     10.0
+    ],
+    [
+     "compose:R@connect",
+     10.0
+    ],
+    [
+     "compose:T@connect($)",
+     10.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "T@connect",
+   "programs": [
+    "T@connect",
+    "R@connect",
+    "T@connect($)",
+    "R@connect($)",
+    "connect($)>>linemap0",
+    "connect($)>>g2.halo_own"
+   ]
+  },
+  {
+   "id": "arc2_09629e4f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.808,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_09c534e7",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8544,
+   "time": 19.86,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_objsize+n8mask",
+     18.66
+    ],
+    [
+     "cellwise:ca_objsize+n8mask_lax",
+     19.66
+    ],
+    [
+     "objects:objwise[c8]>>ca_objsize+n8mask",
+     21.46
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "ca_objsize+n8mask_lax",
+   "programs": []
+  },
+  {
+   "id": "arc2_0a1d4ef5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.786,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_0b148d64",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.538,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:color.min_size.patch",
+     4.0
+    ],
+    [
+     "select:color.min_bbox_area.patch",
+     4.0
+    ],
+    [
+     "select:color.min_height.patch",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "color.min_size.patch",
+   "programs": []
+  },
+  {
+   "id": "arc2_0b17323b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_0bb8deee",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.732,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_0becf7df",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.77,
+   "time": 19.676,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_objsize",
+     9.42
+    ],
+    [
+     "cellwise:ca_objdims",
+     9.92
+    ],
+    [
+     "cellwise:ca_objsize_lax",
+     10.42
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "ca_objsize_lax",
+   "programs": []
+  },
+  {
+   "id": "arc2_0c786b71",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 14.568,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:fit_tile2x2",
+     2.8
+    ],
+    [
+     "geometry:tile_mirror_r2x2",
+     4.0
+    ],
+    [
+     "compose:R@fit_tile2x2",
+     8.8
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:2x2",
+    "outshape:const",
+    "pal:same",
+    "ntrain:3",
+    "bg:5",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "fit_tile2x2",
+   "programs": [
+    "R@fit_tile2x2",
+    "rankpal~tile_mirror_r2x2",
+    "T@tile_mirror_r2x2"
+   ]
+  },
+  {
+   "id": "arc2_0d3d703e",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 12.01,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_color",
+     5.16
+    ],
+    [
+     "tiling:panelmap_even3x1_grid",
+     5.5
+    ],
+    [
+     "tiling:panelmap_even3x3_cell",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "ca_color",
+   "programs": []
+  },
+  {
+   "id": "arc2_0d87d2a6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.781,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_0e206a2e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.784,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_0f63c0b9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.823,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_103eff5b",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8077,
+   "time": 19.648,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "tiling:linemap0",
+     5.5
+    ],
+    [
+     "objects:subst_c8_patch",
+     6.3
+    ],
+    [
+     "objects:subst_c8_patch_bg",
+     6.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_objrel_lax",
+   "programs": [
+    "T@subst_c8_patch",
+    "R@subst_c8_patch",
+    "rankpal~subst_c8_patch"
+   ]
+  },
+  {
+   "id": "arc2_11852cab",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 18.897,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:complete_box#0+0",
+     4.8
+    ],
+    [
+     "compose:complete($)",
+     6.9
+    ],
+    [
+     "enumerate:complete($)",
+     8.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "complete_box#0+0",
+   "programs": [
+    "complete($)",
+    "complete($)",
+    "deep:complete($)",
+    "complete($)>>id",
+    "rankpal~complete($)",
+    "T@complete($)",
+    "R@complete($)"
+   ]
+  },
+  {
+   "id": "arc2_1190e5a7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 18.999,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:pdict[sep_auto/palette/same|2]",
+     3.86
+    ],
+    [
+     "partition:sep_auto.reduce_mode",
+     6.7
+    ],
+    [
+     "partition:sep_auto.reduce_nonbg",
+     6.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:3",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "pdict[sep_auto/palette/same|2]",
+   "programs": [
+    "dedup|pdict[sep_auto/content/same|2]",
+    "dedup|panelmap_sep_auto_cell",
+    "rot90($)>>pdict[sep_auto/palette/transpose|2]",
+    "rot180($)>>pdict[sep_auto/palette/same|2]"
+   ]
+  },
+  {
+   "id": "arc2_11dc524f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:7",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_12422b43",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.798,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_12997ef3",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.799,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_12eac192",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.68,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size",
+     5.25
+    ],
+    [
+     "objects:c4@0.by_bbox",
+     5.25
+    ],
+    [
+     "objects:c4@0.by___shape__",
+     5.6
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": "c4@0.by_size",
+   "programs": []
+  },
+  {
+   "id": "arc2_137eaa0f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.674,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_13f06aa5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:2",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_140c817e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.782,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:9",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_14b8e18c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.669,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     6.3
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     6.3
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:7",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": "subst_m8_mask",
+   "programs": [
+    "rankpal~subst_m8_mask",
+    "T@subst_m8_mask",
+    "R@subst_m8_mask",
+    "transpose($)>>subst_m8_mask_bg"
+   ]
+  },
+  {
+   "id": "arc2_150deff5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.336,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_15113be4",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.619,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:subst_m8_mask",
+     6.1
+    ],
+    [
+     "objects:subst_m8_mask_bg",
+     6.1
+    ],
+    [
+     "objects:subst_m8_patch",
+     6.1
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "subst_m8_mask",
+   "programs": [
+    "rankpal~subst_m8_mask",
+    "T@subst_m8_mask",
+    "R@subst_m8_mask",
+    "del#7($)>>subst_m8_mask"
+   ]
+  },
+  {
+   "id": "arc2_15663ba9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.8667,
+   "time": 19.629,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_objrel",
+     13.14
+    ],
+    [
+     "cellwise:ca_objrel_lax",
+     14.14
+    ],
+    [
+     "cellwise:ca_objdims+objrel",
+     15.14
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "ca_objrel_lax",
+   "programs": [
+    "T@ca_objrel",
+    "R@ca_objrel",
+    "c8.small.rec4($)>>ca_objrel",
+    "c8.small.rec2($)>>ca_objrel"
+   ]
+  },
+  {
+   "id": "arc2_15696249",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 15.306,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:up",
+    "ratio:3x3",
+    "outshape:const",
+    "pal:new",
+    "ntrain:4",
+    "bg:2",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_17b80ad2",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.804,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_182e5d0f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.9388,
+   "time": 19.621,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "objects:subst_m8_mask_bg",
+     6.4
+    ],
+    [
+     "objects:subst_m8_patch_bg",
+     6.4
+    ],
+    [
+     "compose:T@subst_m8_mask_bg",
+     10.9
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:7",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "ca_objrel_lax",
+   "programs": [
+    "T@subst_m8_mask_bg",
+    "R@subst_m8_mask_bg",
+    "T@ca_objrel",
+    "R@ca_objrel"
+   ]
+  },
+  {
+   "id": "arc2_18419cfa",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_184a9768",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.624,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:objwise[c8]>>lookup_shape",
+     14.0
+    ],
+    [
+     "objects:objwise[m8]>>lookup_shape",
+     14.0
+    ],
+    [
+     "objects:objwise[c4]>>lookup_shape",
+     14.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "objwise[c8]>>lookup_shape",
+   "programs": [
+    "fill#4(c8.hole.only($))>>subst_c8_mask",
+    "fill#4(c8.hole.only($))>>ca_objrel",
+    "fill#8(c8.hole.only($))>>ca_objrel",
+    "fill#2(c8.hole.only($))>>ca_objrel"
+   ]
+  },
+  {
+   "id": "arc2_19bb5feb",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.537,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:crop|panelmap_sep#8_cell",
+     10.0
+    ],
+    [
+     "compose:compress|panelmap_sep#8_cell",
+     10.0
+    ],
+    [
+     "compose:largest|panelmap_sep#8_cell",
+     10.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "dedup|compress(del#8($))",
+   "programs": [
+    "crop|panelmap_sep#8_cell",
+    "compress|panelmap_sep#8_cell",
+    "largest|panelmap_sep#8_cell",
+    "crop|panelmap_sep_auto_cell",
+    "compress|panelmap_sep_auto_cell",
+    "largest|panelmap_sep_auto_cell",
+    "dedup|compress(del#8($))"
+   ]
+  },
+  {
+   "id": "arc2_1a07d186",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.783,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1a244afd",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.785,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:8",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1a2e2828",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.563,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.unique_color.cell",
+     5.5
+    ],
+    [
+     "select:c8.unique_color.cell",
+     5.5
+    ],
+    [
+     "select:color.max_density.cell",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "c4.unique_color.cell",
+   "programs": [
+    "dedup(c8.ucol.crop($))",
+    "rankpal~c4.unique_color.cell",
+    "T@c4.unique_color.cell",
+    "R@c4.unique_color.cell"
+   ]
+  },
+  {
+   "id": "arc2_1acc24af",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1b2d62fb",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 15.33,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:ptab[sep#1/ordered|2>4]",
+     3.38
+    ],
+    [
+     "partition:sep#1.nor->8",
+     5.5
+    ],
+    [
+     "partition:sep_auto.nor->8",
+     5.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ptab[sep#1/ordered|2>4]",
+   "programs": [
+    "T@ptab[sep#1/ordered|2>4]",
+    "R@ptab[sep#1/ordered|2>4]",
+    "T@sep#1.nor->8",
+    "R@sep#1.nor->8",
+    "cmap[0>8,9>0](or(half_left($),half_right($)))"
+   ]
+  },
+  {
+   "id": "arc2_1b59e163",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.788,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:4",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1bfc4729",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 17.924,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:rankpal~const",
+     18.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rankpal~const",
+   "programs": [
+    "rankpal~const"
+   ]
+  },
+  {
+   "id": "arc2_1c0d0a4b",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.666,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rcuni",
+     3.6
+    ],
+    [
+     "cellwise:ca_rcempty",
+     3.6
+    ],
+    [
+     "cellwise:ca_mod4",
+     4.48
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "ca_rcuni",
+   "programs": []
+  },
+  {
+   "id": "arc2_1c56ad9f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.879,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1c786137",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 18.22,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:frame_in_largest",
+     4.5
+    ],
+    [
+     "select:frame_in_smallest",
+     4.5
+    ],
+    [
+     "compose:frame_in($)",
+     6.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "frame_in_largest",
+   "programs": [
+    "frame_in($)",
+    "frame_in($)",
+    "deep:frame_in($)",
+    "largest|trim1",
+    "largest|frame_in_largest",
+    "largest|frame_in_smallest"
+   ]
+  },
+  {
+   "id": "arc2_1d0a4b61",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.667,
+   "solver": "symmetry",
+   "hyps": [
+    [
+     "symmetry:repair#0",
+     3.0
+    ],
+    [
+     "tiling:period[both/bg]",
+     3.3
+    ],
+    [
+     "symmetry:repair#0_lax",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "repair#0",
+   "programs": []
+  },
+  {
+   "id": "arc2_1d398264",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.801,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1e0a9b12",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 13.83,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:gravity_down",
+     4.0
+    ],
+    [
+     "sequence:move_c4_down",
+     5.5
+    ],
+    [
+     "sequence:move_c8_down",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": "gravity_down",
+   "programs": [
+    "grav_down($)",
+    "grav_down($)",
+    "grav_down(del#5($))",
+    "deep:grav_down($)"
+   ]
+  },
+  {
+   "id": "arc2_1e32b0e9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.8,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1efba499",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.787,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_1f642eb9",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.94,
+   "time": 19.673,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rays",
+     11.78
+    ],
+    [
+     "cellwise:ca_rays_lax",
+     12.78
+    ],
+    [
+     "partition:panelwise[even1x2]>>ca_rays",
+     15.54
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_rays_lax",
+   "programs": [
+    "rankpal~ca_rays",
+    "T@ca_rays",
+    "R@ca_rays"
+   ]
+  },
+  {
+   "id": "arc2_1f876c06",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.603,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect_d",
+     5.0
+    ],
+    [
+     "compose:rankpal~connect_d",
+     10.0
+    ],
+    [
+     "compose:T@connect_d",
+     10.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "connect_d",
+   "programs": [
+    "rankpal~connect_d",
+    "T@connect_d",
+    "R@connect_d"
+   ]
+  },
+  {
+   "id": "arc2_20981f0e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.784,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_20fb2937",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.73,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:2",
+    "bg:7",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_2204b7a8",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.666,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:proc[c4/0/size|2]",
+     5.24
+    ],
+    [
+     "objects:proc[c4/0/border|2]",
+     5.24
+    ],
+    [
+     "objects:proc[m4/0/square|2]",
+     5.24
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "proc[c4/0/size|2]",
+   "programs": [
+    "rankpal~g2@0.by_r0"
+   ]
+  },
+  {
+   "id": "arc2_22168020",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.148,
+   "solver": "sequence",
+   "hyps": [
+    [
+     "sequence:connect",
+     5.0
+    ],
+    [
+     "sequence:connect_d",
+     5.0
+    ],
+    [
+     "compose:connect($)",
+     6.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "connect",
+   "programs": [
+    "connect($)",
+    "connect($)",
+    "del#7(connect($))",
+    "deep:connect($)",
+    "connect($)>>id"
+   ]
+  },
+  {
+   "id": "arc2_22208ba4",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.799,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:4",
+    "bg:7",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_22233c11",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.389,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_22425bda",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.763,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:4",
+    "bg:7",
+    "in:small",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_22a4bbc2",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.8,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_230f2e48",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.783,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:7",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_23b5c85d",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 19.534,
+   "solver": "select",
+   "hyps": [
+    [
+     "select:c4.min_size.patch",
+     4.0
+    ],
+    [
+     "select:c4.min_bbox_area.patch",
+     4.0
+    ],
+    [
+     "select:c4.min_height.patch",
+     4.0
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": "c4.min_size.patch",
+   "programs": []
+  },
+  {
+   "id": "arc2_2546ccf6",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.784,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_256b0a75",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.785,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_25d487eb",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.795,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_25ff71a9",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 10.241,
+   "solver": "geometry",
+   "hyps": [
+    [
+     "geometry:wrap+1+0",
+     4.5
+    ],
+    [
+     "geometry:shift+1+0",
+     4.5
+    ],
+    [
+     "objects:proc2[c4/0/color+border|2]",
+     5.5
+    ]
+   ],
+   "error": null,
+   "n_test": 2,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:small",
+    "ncol:low"
+   ],
+   "program": "wrap+1+0",
+   "programs": []
+  },
+  {
+   "id": "arc2_2601afb7",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.7273,
+   "time": 19.597,
+   "solver": "cellwise",
+   "hyps": [
+    [
+     "cellwise:ca_rowcol",
+     10.3
+    ],
+    [
+     "cellwise:ca_rowcol_lax",
+     11.3
+    ],
+    [
+     "compose:T@ca_rowcol",
+     15.3
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:7",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "ca_rowcol_lax",
+   "programs": [
+    "T@ca_rowcol",
+    "R@ca_rowcol",
+    "flip_h($)>>ca_rowcol",
+    "del#0(flip_h($))>>ca_rowcol"
+   ]
+  },
+  {
+   "id": "arc2_2685904e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.807,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_2753e76c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.165,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_278e5215",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.694,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_27a77e38",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 16.898,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_28e73c20",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 10.771,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:5",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sym:in"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc2_292dd178",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 19.67,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:5",
+    "in:small",
+    "ncol:mid"
+   ],
+   "program": null,
+   "programs": []
+  }
+ ]
+}

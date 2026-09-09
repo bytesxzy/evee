@@ -1,0 +1,77 @@
+{
+ "reports": [
+  {
+   "file": "DEV1.json",
+   "budget": 20.0,
+   "wall": 386.1,
+   "cpu_sum": 4129.5,
+   "all": {
+    "n": 236,
+    "solved": 110,
+    "rate": 0.4661
+   },
+   "all_top2": {
+    "n": 236,
+    "solved": 116,
+    "rate": 0.4915
+   },
+   "arc1": {
+    "n": 166,
+    "solved": 84,
+    "rate": 0.506
+   },
+   "arc2": {
+    "n": 70,
+    "solved": 26,
+    "rate": 0.3714
+   },
+   "arc1_top2": {
+    "n": 166,
+    "solved": 89,
+    "rate": 0.5361
+   },
+   "arc2_top2": {
+    "n": 70,
+    "solved": 27,
+    "rate": 0.3857
+   },
+   "dev": {
+    "n": 236,
+    "solved": 110,
+    "rate": 0.4661
+   },
+   "dev_arc1": {
+    "n": 166,
+    "solved": 84,
+    "rate": 0.506
+   },
+   "dev_arc2": {
+    "n": 70,
+    "solved": 26,
+    "rate": 0.3714
+   },
+   "hold": {
+    "n": 0,
+    "solved": 0,
+    "rate": 0.0
+   },
+   "hold_arc1": {
+    "n": 0,
+    "solved": 0,
+    "rate": 0.0
+   },
+   "hold_arc2": {
+    "n": 0,
+    "solved": 0,
+    "rate": 0.0
+   },
+   "no_hypothesis": 95,
+   "fitted_but_wrong": 31,
+   "errors": 0,
+   "median_time": 17.192,
+   "p95_time": 20.016,
+   "mean_time": 17.498,
+   "seal": "9c2067fe40a27da4beee3100a123f078a0f57dfaf18c3f8fc0fc55cc0586ec71"
+  }
+ ]
+}

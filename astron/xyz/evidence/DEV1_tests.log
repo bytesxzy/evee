@@ -1,0 +1,68 @@
+.............................................................................................................................C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:218: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\data\\conversation_pack.json' mode='r' encoding='utf-8'>
+  payload = json.loads(open(EX.PACK_PATH).read()) if os.path.exists(EX.PACK_PATH) else None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.......C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:249: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\policy\\text_gabriel_lm.json' mode='r' encoding='utf-8'>
+  d = json.load(open(TRAIN.MODEL_PATH))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\bench.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\conversation.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\corpus.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\export.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\families.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\harvest_oasst.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\lm.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\signatures.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\train.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:275: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\__init__.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\bench.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\conversation.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\corpus.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\export.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\families.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\lm.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\signatures.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\train.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\Gabri\OneDrive\Documents\New project\cell4arcimproved-work\repo\c4-mini-source\cell4mini-claude-gabriel-text-bridge-tprusb\astron\xyz\tests\test_text.py:287: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\Gabri\\OneDrive\\Documents\\New project\\cell4arcimproved-work\\repo\\c4-mini-source\\cell4mini-claude-gabriel-text-bridge-tprusb\\astron\\xyz\\text\\__init__.py' mode='r' encoding='utf-8'>
+  src = open(os.path.join(base, name)).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.................
+----------------------------------------------------------------------
+Ran 159 tests in 16.167s
+
+OK

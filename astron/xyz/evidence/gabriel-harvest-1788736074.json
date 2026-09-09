@@ -1,0 +1,132 @@
+{
+ "n": 4,
+ "budget": 4.0,
+ "offset": 6,
+ "policy": null,
+ "stock": false,
+ "wall": 4.1,
+ "per_task": [
+  {
+   "id": "arc1_0ca9ddb6",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 2.347,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:subst_m8_patch",
+     3.43
+    ],
+    [
+     "objects:subst_m8_patch_bg",
+     3.43
+    ],
+    [
+     "objects:subst_m8_color",
+     3.43
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:mid",
+    "sep:yes"
+   ],
+   "program": "subst_m8_patch",
+   "programs": []
+  },
+  {
+   "id": "arc1_0e206a2e",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 2.521,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1190e5a7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 4.0,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:dedup|panelmap_sep_auto_cell",
+     7.2
+    ],
+    [
+     "partition:sep_auto.reduce_mode",
+     7.7
+    ],
+    [
+     "partition:sep_auto.reduce_nonbg",
+     7.7
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "pal:drop",
+    "ntrain:3",
+    "bg:3",
+    "in:mid",
+    "ncol:mid"
+   ],
+   "program": "dedup|panelmap_sep_auto_cell",
+   "programs": [
+    "dedup|panelmap_sep_auto_cell",
+    "dedup|sep_auto.reduce_mode",
+    "dedup|sep_auto.reduce_nonbg",
+    "rankpal~sep_auto.reduce_mode",
+    "T@sep_auto.reduce_mode"
+   ]
+  },
+  {
+   "id": "arc1_137eaa0f",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 2.309,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  }
+ ]
+}

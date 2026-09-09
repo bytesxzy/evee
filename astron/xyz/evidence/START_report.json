@@ -1,0 +1,67 @@
+{
+ "reports": [
+  {
+   "file": "START.json",
+   "budget": 20.0,
+   "wall": 875.4,
+   "cpu_sum": 9529.2,
+   "all": {
+    "n": 550,
+    "solved": 247,
+    "rate": 0.4491
+   },
+   "all_top2": {
+    "n": 550,
+    "solved": 255,
+    "rate": 0.4636
+   },
+   "arc1": {
+    "n": 400,
+    "solved": 197,
+    "rate": 0.4925
+   },
+   "arc2": {
+    "n": 150,
+    "solved": 50,
+    "rate": 0.3333
+   },
+   "arc1_top2": {
+    "n": 400,
+    "solved": 204,
+    "rate": 0.51
+   },
+   "arc2_top2": {
+    "n": 150,
+    "solved": 51,
+    "rate": 0.34
+   },
+   "dev": {
+    "n": 236,
+    "solved": 107,
+    "rate": 0.4534
+   },
+   "hold": {
+    "n": 314,
+    "solved": 140,
+    "rate": 0.4459
+   },
+   "hold_arc1": {
+    "n": 234,
+    "solved": 115,
+    "rate": 0.4915
+   },
+   "hold_arc2": {
+    "n": 80,
+    "solved": 25,
+    "rate": 0.3125
+   },
+   "no_hypothesis": 221,
+   "fitted_but_wrong": 82,
+   "errors": 0,
+   "median_time": 16.861,
+   "p95_time": 20.011,
+   "mean_time": 17.326,
+   "seal": "21cb745bd1984cd757b753fac05275235fcecb5ac677e2e44ccf6ce7e8df3868"
+  }
+ ]
+}

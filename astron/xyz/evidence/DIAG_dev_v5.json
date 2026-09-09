@@ -1,0 +1,4163 @@
+{
+ "n": 236,
+ "census": {
+  "SOLVED": 100,
+  "SOLVED_TOP2": 6,
+  "NO_FIT": 100,
+  "FIT_BUT_WRONG": 29,
+  "MISRANKED": 1
+ },
+ "solved": 100,
+ "rate": 0.4237,
+ "tag_failure_rate": [
+  {
+   "tag": "struct:permutation",
+   "n": 15,
+   "fail_rate": 0.667
+  },
+  {
+   "tag": "shape:same",
+   "n": 149,
+   "fail_rate": 0.664
+  },
+  {
+   "tag": "struct:panels",
+   "n": 106,
+   "fail_rate": 0.642
+  },
+  {
+   "tag": "ntrain:3",
+   "n": 132,
+   "fail_rate": 0.621
+  },
+  {
+   "tag": "ntrain:2",
+   "n": 43,
+   "fail_rate": 0.535
+  },
+  {
+   "tag": "struct:new_colors",
+   "n": 77,
+   "fail_rate": 0.532
+  },
+  {
+   "tag": "ntrain:4",
+   "n": 43,
+   "fail_rate": 0.512
+  },
+  {
+   "tag": "kind:extract",
+   "n": 60,
+   "fail_rate": 0.45
+  },
+  {
+   "tag": "shape:diff",
+   "n": 87,
+   "fail_rate": 0.425
+  },
+  {
+   "tag": "kind:tiny_out",
+   "n": 25,
+   "fail_rate": 0.36
+  },
+  {
+   "tag": "kind:upscale",
+   "n": 15,
+   "fail_rate": 0.2
+  }
+ ],
+ "per_task": [
+  {
+   "id": "arc1_007bbfb7",
+   "class": "SOLVED",
+   "time": 14.43,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:5"
+   ],
+   "n_fit": 6,
+   "n_hyps": 1531,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:stamp[nonbg/id/0]"
+  },
+  {
+   "id": "arc1_025d127b",
+   "class": "SOLVED_TOP2",
+   "time": 13.88,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "ntrain:2"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1639,
+   "rank": 1,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n4"
+  },
+  {
+   "id": "arc1_045e512c",
+   "class": "NO_FIT",
+   "time": 16.72,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2390,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_05269061",
+   "class": "SOLVED",
+   "time": 13.72,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 4,
+   "n_hyps": 1810,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:filldiag+1#0"
+  },
+  {
+   "id": "arc1_05f2a901",
+   "class": "NO_FIT",
+   "time": 15.46,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1705,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_09629e4f",
+   "class": "NO_FIT",
+   "time": 16.45,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1881,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_0a938d79",
+   "class": "FIT_BUT_WRONG",
+   "time": 16.21,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 1,
+   "n_hyps": 2019,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:if[tall]{False:linemap0,True:linemap1}"
+  },
+  {
+   "id": "arc1_0b148d64",
+   "class": "SOLVED",
+   "time": 14.43,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 88,
+   "n_hyps": 1506,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:color.min_size.patch"
+  },
+  {
+   "id": "arc1_11852cab",
+   "class": "SOLVED",
+   "time": 18.45,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 20,
+   "n_hyps": 2156,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "symmetry",
+   "error": null,
+   "top_program": "symmetry:complete_box#0+0"
+  },
+  {
+   "id": "arc1_150deff5",
+   "class": "NO_FIT",
+   "time": 13.84,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1631,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_1a07d186",
+   "class": "NO_FIT",
+   "time": 16.65,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1905,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_1bfc4729",
+   "class": "SOLVED",
+   "time": 15.06,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 1,
+   "n_hyps": 2183,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:rankpal~const"
+  },
+  {
+   "id": "arc1_1c786137",
+   "class": "SOLVED",
+   "time": 20.0,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 30,
+   "n_hyps": 1392,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:frame_in_largest"
+  },
+  {
+   "id": "arc1_1caeab9d",
+   "class": "SOLVED",
+   "time": 14.84,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 15,
+   "n_hyps": 1863,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:align_c8_color#1_near_keep_bg0"
+  },
+  {
+   "id": "arc1_1f642eb9",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.63,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 9,
+   "n_hyps": 2577,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc1_1f85a75f",
+   "class": "SOLVED",
+   "time": 10.48,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:2"
+   ],
+   "n_fit": 212,
+   "n_hyps": 1828,
+   "rank": 0,
+   "n_distinct": 13.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c4.max_size.patch"
+  },
+  {
+   "id": "arc1_1fad071e",
+   "class": "NO_FIT",
+   "time": 6.39,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1410,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_2204b7a8",
+   "class": "SOLVED",
+   "time": 19.24,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 5,
+   "n_hyps": 2392,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:proc[c4/0/size|2]"
+  },
+  {
+   "id": "arc1_22233c11",
+   "class": "NO_FIT",
+   "time": 13.78,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1899,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_253bf280",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.02,
+   "tags": [
+    "shape:same",
+    "ntrain:8"
+   ],
+   "n_fit": 8,
+   "n_hyps": 1752,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc1_25d487eb",
+   "class": "NO_FIT",
+   "time": 16.17,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1768,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_25d8a9c8",
+   "class": "SOLVED",
+   "time": 9.23,
+   "tags": [
+    "shape:same",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 35,
+   "n_hyps": 3009,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:rows@None.by_ncolors"
+  },
+  {
+   "id": "arc1_25ff71a9",
+   "class": "SOLVED",
+   "time": 4.35,
+   "tags": [
+    "shape:same",
+    "kind:tiny_out",
+    "struct:permutation",
+    "ntrain:4"
+   ],
+   "n_fit": 62,
+   "n_hyps": 1787,
+   "rank": 0,
+   "n_distinct": 2.5,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:wrap+1+0"
+  },
+  {
+   "id": "arc1_29623171",
+   "class": "NO_FIT",
+   "time": 16.19,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1813,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_2c608aff",
+   "class": "SOLVED",
+   "time": 19.11,
+   "tags": [
+    "shape:same",
+    "ntrain:4"
+   ],
+   "n_fit": 9,
+   "n_hyps": 3378,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:anchor_c8_largest"
+  },
+  {
+   "id": "arc1_2dc579da",
+   "class": "SOLVED",
+   "time": 10.08,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 7,
+   "n_hyps": 2392,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:sep_auto.sel_unique"
+  },
+  {
+   "id": "arc1_2dd70a9a",
+   "class": "NO_FIT",
+   "time": 16.61,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1775,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_2dee498d",
+   "class": "SOLVED",
+   "time": 7.49,
+   "tags": [
+    "shape:diff",
+    "kind:downscale",
+    "ntrain:3"
+   ],
+   "n_fit": 17,
+   "n_hyps": 2426,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:drop_dup1"
+  },
+  {
+   "id": "arc1_3345333e",
+   "class": "SOLVED_TOP2",
+   "time": 18.95,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 34,
+   "n_hyps": 2038,
+   "rank": 1,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "tiling:linemap0"
+  },
+  {
+   "id": "arc1_3428a4f5",
+   "class": "SOLVED",
+   "time": 17.16,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 6,
+   "n_hyps": 1361,
+   "rank": 0,
+   "n_distinct": 1.5,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#4/ordered|2>4]"
+  },
+  {
+   "id": "arc1_3618c87e",
+   "class": "SOLVED",
+   "time": 7.98,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 45,
+   "n_hyps": 1770,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rowcol"
+  },
+  {
+   "id": "arc1_36fdfd69",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.0,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 13,
+   "n_hyps": 1785,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "objects:subst_m8_patch"
+  },
+  {
+   "id": "arc1_3906de3d",
+   "class": "SOLVED",
+   "time": 17.42,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "ntrain:3"
+   ],
+   "n_fit": 25,
+   "n_hyps": 1700,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:gravity_up"
+  },
+  {
+   "id": "arc1_39a8645d",
+   "class": "SOLVED",
+   "time": 16.39,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 33,
+   "n_hyps": 1629,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c8.majority_shape.patch"
+  },
+  {
+   "id": "arc1_39e1d7f9",
+   "class": "NO_FIT",
+   "time": 16.77,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1845,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_3befdf3e",
+   "class": "SOLVED",
+   "time": 19.72,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 3,
+   "n_hyps": 2031,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:rankpal~subst_m8_mask"
+  },
+  {
+   "id": "arc1_3eda0437",
+   "class": "NO_FIT",
+   "time": 16.11,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1881,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_40853293",
+   "class": "SOLVED_TOP2",
+   "time": 19.17,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 7,
+   "n_hyps": 2542,
+   "rank": 1,
+   "n_distinct": 3.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc1_4258a5f9",
+   "class": "SOLVED",
+   "time": 6.91,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 51,
+   "n_hyps": 2052,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n8count"
+  },
+  {
+   "id": "arc1_42a50994",
+   "class": "SOLVED",
+   "time": 19.99,
+   "tags": [
+    "shape:same",
+    "ntrain:4"
+   ],
+   "n_fit": 106,
+   "n_hyps": 1777,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:c8@0.by_is_smallest"
+  },
+  {
+   "id": "arc1_4347f46a",
+   "class": "FIT_BUT_WRONG",
+   "time": 16.37,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 36,
+   "n_hyps": 1849,
+   "rank": null,
+   "n_distinct": 3.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n4count"
+  },
+  {
+   "id": "arc1_444801d8",
+   "class": "NO_FIT",
+   "time": 16.09,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2146,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_4612dd53",
+   "class": "NO_FIT",
+   "time": 16.17,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1804,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_46f33fce",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.06,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 2,
+   "n_hyps": 1715,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:down2x2^ca_n8"
+  },
+  {
+   "id": "arc1_47c1f68c",
+   "class": "NO_FIT",
+   "time": 8.33,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1358,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_48d8fb45",
+   "class": "SOLVED",
+   "time": 11.23,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 10,
+   "n_hyps": 1619,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:nth[c8/size/1/patch]"
+  },
+  {
+   "id": "arc1_496994bd",
+   "class": "SOLVED",
+   "time": 8.67,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "ntrain:2"
+   ],
+   "n_fit": 34,
+   "n_hyps": 1854,
+   "rank": 0,
+   "n_distinct": 9.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:union_rot180"
+  },
+  {
+   "id": "arc1_50846271",
+   "class": "FIT_BUT_WRONG",
+   "time": 19.24,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 8,
+   "n_hyps": 1735,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "objects:subst_m8_mask"
+  },
+  {
+   "id": "arc1_53b68214",
+   "class": "NO_FIT",
+   "time": 9.33,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1388,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_543a7ed5",
+   "class": "SOLVED",
+   "time": 18.88,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 19,
+   "n_hyps": 2056,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:c8.all.out3(fill#4($))>>id"
+  },
+  {
+   "id": "arc1_56dc2b01",
+   "class": "NO_FIT",
+   "time": 13.68,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1796,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_57aa92db",
+   "class": "NO_FIT",
+   "time": 16.77,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2252,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_5ad4f10b",
+   "class": "FIT_BUT_WRONG",
+   "time": 16.31,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1526,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "enumerate",
+   "error": null,
+   "top_program": "enumerate:cmap[1>2,4>8,6>3](dedup(largest8($)))"
+  },
+  {
+   "id": "arc1_5bd6f4ac",
+   "class": "SOLVED",
+   "time": 13.65,
+   "tags": [
+    "shape:diff",
+    "kind:downscale",
+    "kind:tiny_out",
+    "ntrain:4"
+   ],
+   "n_fit": 7,
+   "n_hyps": 1732,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:even3x3.at0,2"
+  },
+  {
+   "id": "arc1_623ea044",
+   "class": "SOLVED",
+   "time": 19.49,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 6,
+   "n_hyps": 1763,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:rayd_stop"
+  },
+  {
+   "id": "arc1_62c24649",
+   "class": "SOLVED",
+   "time": 6.87,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1486,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:fit_tile2x2"
+  },
+  {
+   "id": "arc1_63613498",
+   "class": "FIT_BUT_WRONG",
+   "time": 17.52,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 40,
+   "n_hyps": 2188,
+   "rank": null,
+   "n_distinct": 3.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:subst_c8_patch"
+  },
+  {
+   "id": "arc1_6430c8c4",
+   "class": "SOLVED",
+   "time": 12.47,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1598,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#4/ordered|2>4]"
+  },
+  {
+   "id": "arc1_673ef223",
+   "class": "NO_FIT",
+   "time": 16.25,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1905,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_6773b310",
+   "class": "FIT_BUT_WRONG",
+   "time": 14.35,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 4,
+   "n_hyps": 1382,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "tiling:panelmap_sep#8_cell"
+  },
+  {
+   "id": "arc1_681b3aeb",
+   "class": "NO_FIT",
+   "time": 10.01,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1729,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_6855a6e4",
+   "class": "NO_FIT",
+   "time": 16.39,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1909,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_68b16354",
+   "class": "SOLVED",
+   "time": 16.12,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "ntrain:3"
+   ],
+   "n_fit": 24,
+   "n_hyps": 2988,
+   "rank": 0,
+   "n_distinct": 5.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:flip_v"
+  },
+  {
+   "id": "arc1_6b9890af",
+   "class": "NO_FIT",
+   "time": 16.25,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1429,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_6c434453",
+   "class": "SOLVED",
+   "time": 14.92,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 23,
+   "n_hyps": 1785,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:stamp3x3o"
+  },
+  {
+   "id": "arc1_6d0aefbc",
+   "class": "SOLVED",
+   "time": 11.37,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:4"
+   ],
+   "n_fit": 13,
+   "n_hyps": 2506,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:fit_tile1x2"
+  },
+  {
+   "id": "arc1_6d58a25d",
+   "class": "NO_FIT",
+   "time": 16.75,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2820,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_6d75e8bb",
+   "class": "SOLVED",
+   "time": 13.87,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 29,
+   "n_hyps": 1667,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rcuni"
+  },
+  {
+   "id": "arc1_6e02f1e3",
+   "class": "SOLVED",
+   "time": 12.32,
+   "tags": [
+    "shape:same",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:5"
+   ],
+   "n_fit": 7,
+   "n_hyps": 3001,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "colormap",
+   "error": null,
+   "top_program": "colormap:lookup_ncolors"
+  },
+  {
+   "id": "arc1_6e82a1ae",
+   "class": "SOLVED",
+   "time": 16.81,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 88,
+   "n_hyps": 2091,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_objsize"
+  },
+  {
+   "id": "arc1_6f8cd79b",
+   "class": "SOLVED",
+   "time": 2.82,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 14,
+   "n_hyps": 1434,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_border"
+  },
+  {
+   "id": "arc1_72322fa7",
+   "class": "NO_FIT",
+   "time": 16.55,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2137,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_72ca375d",
+   "class": "SOLVED",
+   "time": 9.96,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 102,
+   "n_hyps": 1725,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c8.max_density.patch"
+  },
+  {
+   "id": "arc1_73251a56",
+   "class": "NO_FIT",
+   "time": 16.77,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 3690,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_746b3537",
+   "class": "SOLVED",
+   "time": 12.04,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:5"
+   ],
+   "n_fit": 84,
+   "n_hyps": 2492,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:dedup"
+  },
+  {
+   "id": "arc1_77fdfe62",
+   "class": "NO_FIT",
+   "time": 8.37,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1776,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_780d0b14",
+   "class": "SOLVED",
+   "time": 16.41,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 9,
+   "n_hyps": 1523,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:sep#0.reduce_mode"
+  },
+  {
+   "id": "arc1_794b24be",
+   "class": "SOLVED",
+   "time": 12.45,
+   "tags": [
+    "shape:same",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:10"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1609,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:proc[color/1/size|4]"
+  },
+  {
+   "id": "arc1_7df24a62",
+   "class": "NO_FIT",
+   "time": 16.77,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1837,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_8731374e",
+   "class": "NO_FIT",
+   "time": 14.47,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2385,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_88a62173",
+   "class": "SOLVED",
+   "time": 6.85,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 51,
+   "n_hyps": 1479,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c8.unique_shape.patch"
+  },
+  {
+   "id": "arc1_8be77c9e",
+   "class": "SOLVED",
+   "time": 8.07,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 12,
+   "n_hyps": 1414,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:fit_tile2x1"
+  },
+  {
+   "id": "arc1_8d5021e8",
+   "class": "SOLVED",
+   "time": 4.83,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 8,
+   "n_hyps": 2522,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:tile_mirror_r3x2"
+  },
+  {
+   "id": "arc1_8eb1be9a",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.51,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 7,
+   "n_hyps": 1790,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "tiling:linemap1"
+  },
+  {
+   "id": "arc1_8f2ea7aa",
+   "class": "SOLVED",
+   "time": 17.25,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 12,
+   "n_hyps": 1938,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:crop|blockmap3x3"
+  },
+  {
+   "id": "arc1_90c28cc7",
+   "class": "SOLVED",
+   "time": 18.15,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 67,
+   "n_hyps": 1677,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:dedup(crop($))"
+  },
+  {
+   "id": "arc1_913fb3ed",
+   "class": "SOLVED_TOP2",
+   "time": 20.0,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 13,
+   "n_hyps": 2282,
+   "rank": 1,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n8"
+  },
+  {
+   "id": "arc1_928ad970",
+   "class": "NO_FIT",
+   "time": 16.35,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2066,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_963e52fc",
+   "class": "SOLVED",
+   "time": 7.54,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1303,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:rep[+0-6/0b]"
+  },
+  {
+   "id": "arc1_97a05b5b",
+   "class": "NO_FIT",
+   "time": 16.19,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1481,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_995c5fa3",
+   "class": "NO_FIT",
+   "time": 8.31,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1787,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_99b1bc43",
+   "class": "SOLVED",
+   "time": 13.13,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1585,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#4/ordered|2>4]"
+  },
+  {
+   "id": "arc1_9aec4887",
+   "class": "NO_FIT",
+   "time": 15.67,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1523,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_9af7a82c",
+   "class": "NO_FIT",
+   "time": 3.99,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2317,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_9ecd008a",
+   "class": "SOLVED",
+   "time": 16.17,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:3"
+   ],
+   "n_fit": 6,
+   "n_hyps": 3203,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "symmetry",
+   "error": null,
+   "top_program": "symmetry:patch#0"
+  },
+  {
+   "id": "arc1_9f236235",
+   "class": "SOLVED",
+   "time": 15.83,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1392,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:refine:sep_auto.reduce_mode>>flip_h()"
+  },
+  {
+   "id": "arc1_a2fd1cf0",
+   "class": "NO_FIT",
+   "time": 16.06,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1915,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_a3325580",
+   "class": "NO_FIT",
+   "time": 14.3,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:6"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1807,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_a5313dff",
+   "class": "SOLVED",
+   "time": 12.1,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 47,
+   "n_hyps": 1730,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:fill_holes#1"
+  },
+  {
+   "id": "arc1_a5f85a15",
+   "class": "FIT_BUT_WRONG",
+   "time": 12.61,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 28,
+   "n_hyps": 1679,
+   "rank": null,
+   "n_distinct": 7.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:c4@0.by_c0"
+  },
+  {
+   "id": "arc1_a61f2674",
+   "class": "MISRANKED",
+   "time": 12.22,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 28,
+   "n_hyps": 1931,
+   "rank": 2,
+   "n_distinct": 3.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "tiling:linemap1"
+  },
+  {
+   "id": "arc1_a64e4611",
+   "class": "NO_FIT",
+   "time": 16.77,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2449,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_a65b410d",
+   "class": "NO_FIT",
+   "time": 13.46,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1686,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_a68b268e",
+   "class": "SOLVED",
+   "time": 17.18,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:6"
+   ],
+   "n_fit": 4,
+   "n_hyps": 1693,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#1/ordered|4>16]"
+  },
+  {
+   "id": "arc1_a740d043",
+   "class": "SOLVED",
+   "time": 11.94,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 45,
+   "n_hyps": 1337,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:cmap[1>0](crop($))"
+  },
+  {
+   "id": "arc1_a8d7556c",
+   "class": "NO_FIT",
+   "time": 16.74,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2115,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_aabf363d",
+   "class": "SOLVED",
+   "time": 5.29,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 84,
+   "n_hyps": 1670,
+   "rank": 0,
+   "n_distinct": 9.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:proc[c4/0/size|2]"
+  },
+  {
+   "id": "arc1_aba27056",
+   "class": "NO_FIT",
+   "time": 14.75,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1731,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_ae3edfdc",
+   "class": "NO_FIT",
+   "time": 16.47,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2040,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_ae4f1146",
+   "class": "SOLVED",
+   "time": 10.59,
+   "tags": [
+    "shape:diff",
+    "kind:downscale",
+    "kind:tiny_out",
+    "ntrain:4"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1438,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "enumerate",
+   "error": null,
+   "top_program": "enumerate:cmap[0>8](largest8(del#8($)))"
+  },
+  {
+   "id": "arc1_b0c4d837",
+   "class": "NO_FIT",
+   "time": 9.48,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:6"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1290,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_b190f7f5",
+   "class": "NO_FIT",
+   "time": 4.13,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1368,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_b2862040",
+   "class": "SOLVED",
+   "time": 17.33,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 53,
+   "n_hyps": 1704,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:c4@9.by_holes"
+  },
+  {
+   "id": "arc1_b527c5c6",
+   "class": "NO_FIT",
+   "time": 16.75,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1897,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_b548a754",
+   "class": "FIT_BUT_WRONG",
+   "time": 17.83,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1782,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:complete(c8.small.rec1($))>>ca_rays"
+  },
+  {
+   "id": "arc1_b60334d2",
+   "class": "SOLVED",
+   "time": 10.28,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 25,
+   "n_hyps": 2003,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:stamp3x3o"
+  },
+  {
+   "id": "arc1_b7249182",
+   "class": "NO_FIT",
+   "time": 16.09,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2039,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_b782dc8a",
+   "class": "NO_FIT",
+   "time": 19.01,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1819,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_b8825c91",
+   "class": "SOLVED",
+   "time": 19.13,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "ntrain:4"
+   ],
+   "n_fit": 23,
+   "n_hyps": 3990,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "symmetry",
+   "error": null,
+   "top_program": "symmetry:repair#4"
+  },
+  {
+   "id": "arc1_b94a9452",
+   "class": "SOLVED_TOP2",
+   "time": 16.16,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 65,
+   "n_hyps": 1483,
+   "rank": 1,
+   "n_distinct": 4.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:crop|rows@2.by_ncolors+size"
+  },
+  {
+   "id": "arc1_ba97ae07",
+   "class": "FIT_BUT_WRONG",
+   "time": 16.09,
+   "tags": [
+    "shape:same",
+    "ntrain:4"
+   ],
+   "n_fit": 24,
+   "n_hyps": 1902,
+   "rank": null,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rcmode"
+  },
+  {
+   "id": "arc1_bb43febb",
+   "class": "SOLVED",
+   "time": 14.38,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 24,
+   "n_hyps": 1957,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n4count"
+  },
+  {
+   "id": "arc1_bbc9ae5d",
+   "class": "NO_FIT",
+   "time": 5.54,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "ntrain:5"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1380,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_bd4472b8",
+   "class": "NO_FIT",
+   "time": 12.42,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2122,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_bdad9b1f",
+   "class": "SOLVED",
+   "time": 7.68,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 6,
+   "n_hyps": 2377,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rowcol"
+  },
+  {
+   "id": "arc1_be94b721",
+   "class": "SOLVED",
+   "time": 6.14,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:4"
+   ],
+   "n_fit": 129,
+   "n_hyps": 1485,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c4.max_size.patch"
+  },
+  {
+   "id": "arc1_c8cbb738",
+   "class": "NO_FIT",
+   "time": 11.43,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2526,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_c8f0f002",
+   "class": "SOLVED",
+   "time": 5.16,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 219,
+   "n_hyps": 3364,
+   "rank": 0,
+   "n_distinct": 11.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_color"
+  },
+  {
+   "id": "arc1_cbded52d",
+   "class": "NO_FIT",
+   "time": 16.08,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2658,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_cce03e0d",
+   "class": "SOLVED",
+   "time": 6.21,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1443,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:stamp[is2/id/0]"
+  },
+  {
+   "id": "arc1_cdecee7f",
+   "class": "SOLVED",
+   "time": 11.25,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1955,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "counting",
+   "error": null,
+   "top_program": "counting:gather[col/all/snake]"
+  },
+  {
+   "id": "arc1_ce22a75a",
+   "class": "SOLVED",
+   "time": 7.6,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 63,
+   "n_hyps": 1990,
+   "rank": 0,
+   "n_distinct": 8.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n8count"
+  },
+  {
+   "id": "arc1_ce4f8723",
+   "class": "SOLVED",
+   "time": 15.41,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 11,
+   "n_hyps": 1591,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#4/ordered|2>4]"
+  },
+  {
+   "id": "arc1_ce602527",
+   "class": "NO_FIT",
+   "time": 14.86,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2424,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_d06dbe63",
+   "class": "NO_FIT",
+   "time": 18.47,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1769,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_d07ae81c",
+   "class": "NO_FIT",
+   "time": 16.58,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 3073,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_d13f3404",
+   "class": "SOLVED",
+   "time": 6.52,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1628,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:rep[+1+1/0]"
+  },
+  {
+   "id": "arc1_d43fd935",
+   "class": "SOLVED",
+   "time": 17.9,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 9,
+   "n_hyps": 2320,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:anchor_c8_largest"
+  },
+  {
+   "id": "arc1_d4f3cd78",
+   "class": "FIT_BUT_WRONG",
+   "time": 12.02,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1806,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "tiling:linemap1"
+  },
+  {
+   "id": "arc1_d511f180",
+   "class": "SOLVED",
+   "time": 9.18,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 22,
+   "n_hyps": 3303,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_color"
+  },
+  {
+   "id": "arc1_d8c310e9",
+   "class": "SOLVED",
+   "time": 15.51,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1907,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:continue[x]"
+  },
+  {
+   "id": "arc1_d90796e8",
+   "class": "SOLVED",
+   "time": 12.03,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 14,
+   "n_hyps": 1857,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:m4@0.by_size+color"
+  },
+  {
+   "id": "arc1_db3e9e38",
+   "class": "NO_FIT",
+   "time": 8.58,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1648,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_db93a21d",
+   "class": "NO_FIT",
+   "time": 16.7,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1857,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_dc433765",
+   "class": "NO_FIT",
+   "time": 15.8,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:7"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1684,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_ddf7fa4f",
+   "class": "FIT_BUT_WRONG",
+   "time": 19.09,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 5,
+   "n_hyps": 2410,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:proc2[c4/0/size_rank+border|7]"
+  },
+  {
+   "id": "arc1_e179c5f4",
+   "class": "NO_FIT",
+   "time": 10.55,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1754,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e21d9049",
+   "class": "NO_FIT",
+   "time": 18.91,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1794,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e3497940",
+   "class": "SOLVED",
+   "time": 13.44,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 4,
+   "n_hyps": 1786,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "enumerate",
+   "error": null,
+   "top_program": "enumerate:or(half_left($),half_left(flip_h($)))"
+  },
+  {
+   "id": "arc1_e40b9e2f",
+   "class": "NO_FIT",
+   "time": 16.09,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2164,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e5062a87",
+   "class": "NO_FIT",
+   "time": 16.0,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1843,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e6721834",
+   "class": "NO_FIT",
+   "time": 16.33,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2456,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e9614598",
+   "class": "NO_FIT",
+   "time": 13.62,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1999,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_e98196ab",
+   "class": "SOLVED",
+   "time": 17.73,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 13,
+   "n_hyps": 1538,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:rep[-6+0/0]"
+  },
+  {
+   "id": "arc1_ea786f4a",
+   "class": "SOLVED",
+   "time": 15.3,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "ntrain:3"
+   ],
+   "n_fit": 10,
+   "n_hyps": 3104,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:rayd_stop"
+  },
+  {
+   "id": "arc1_eb281b96",
+   "class": "SOLVED",
+   "time": 5.04,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "ntrain:2"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1270,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:ext[mirror/mirror]"
+  },
+  {
+   "id": "arc1_eb5a1d5d",
+   "class": "SOLVED",
+   "time": 19.78,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 99,
+   "n_hyps": 2430,
+   "rank": 0,
+   "n_distinct": 5.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:dedup"
+  },
+  {
+   "id": "arc1_ec883f72",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.57,
+   "tags": [
+    "shape:same",
+    "ntrain:4"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1913,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:rankpal~subst_m8_mask"
+  },
+  {
+   "id": "arc1_ecdecbb3",
+   "class": "NO_FIT",
+   "time": 16.28,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1670,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_f15e1fac",
+   "class": "NO_FIT",
+   "time": 16.14,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1866,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_f1cefba8",
+   "class": "NO_FIT",
+   "time": 16.7,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1681,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_f5b8619d",
+   "class": "FIT_BUT_WRONG",
+   "time": 9.23,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 15,
+   "n_hyps": 1321,
+   "rank": null,
+   "n_distinct": 2.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:tile2($)>>panelmap_even1x2_grid"
+  },
+  {
+   "id": "arc1_f8a8fe49",
+   "class": "NO_FIT",
+   "time": 16.43,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1873,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_f8c80d96",
+   "class": "NO_FIT",
+   "time": 16.12,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1930,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc1_fafffa47",
+   "class": "SOLVED",
+   "time": 10.86,
+   "tags": [
+    "shape:diff",
+    "kind:downscale",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:5"
+   ],
+   "n_fit": 7,
+   "n_hyps": 1509,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[even2x1/ordered|2>4]"
+  },
+  {
+   "id": "arc1_ff28f65a",
+   "class": "NO_FIT",
+   "time": 8.8,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:8"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1275,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_00576224",
+   "class": "SOLVED",
+   "time": 5.25,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:2"
+   ],
+   "n_fit": 5,
+   "n_hyps": 2634,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:fit_tile3x3"
+  },
+  {
+   "id": "arc2_007bbfb7",
+   "class": "SOLVED",
+   "time": 14.46,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "ntrain:5"
+   ],
+   "n_fit": 6,
+   "n_hyps": 1531,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:stamp[nonbg/id/0]"
+  },
+  {
+   "id": "arc2_025d127b",
+   "class": "SOLVED_TOP2",
+   "time": 14.07,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "ntrain:2"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1639,
+   "rank": 1,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_n4"
+  },
+  {
+   "id": "arc2_03560426",
+   "class": "NO_FIT",
+   "time": 16.07,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2180,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_045e512c",
+   "class": "NO_FIT",
+   "time": 16.69,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2394,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_0520fde7",
+   "class": "SOLVED",
+   "time": 9.72,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 9,
+   "n_hyps": 1408,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#5/ordered|2>4]"
+  },
+  {
+   "id": "arc2_0607ce86",
+   "class": "NO_FIT",
+   "time": 16.75,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1888,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_08ed6ac7",
+   "class": "SOLVED",
+   "time": 13.98,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 22,
+   "n_hyps": 2075,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:c4@0.by_size_rank"
+  },
+  {
+   "id": "arc2_0962bcdd",
+   "class": "SOLVED",
+   "time": 18.71,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 21,
+   "n_hyps": 2571,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "objects:subst_m8_patch"
+  },
+  {
+   "id": "arc2_0a2355a6",
+   "class": "SOLVED",
+   "time": 19.18,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 69,
+   "n_hyps": 1832,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:c4@0.by_holes"
+  },
+  {
+   "id": "arc2_0a938d79",
+   "class": "FIT_BUT_WRONG",
+   "time": 16.18,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 1,
+   "n_hyps": 2019,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:if[tall]{False:linemap0,True:linemap1}"
+  },
+  {
+   "id": "arc2_0c9aba6e",
+   "class": "SOLVED",
+   "time": 14.88,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1472,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#7/ordered|2>4]"
+  },
+  {
+   "id": "arc2_0ca9ddb6",
+   "class": "SOLVED",
+   "time": 17.78,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 10,
+   "n_hyps": 2364,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:subst_m8_patch"
+  },
+  {
+   "id": "arc2_0e671a1a",
+   "class": "NO_FIT",
+   "time": 16.35,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2127,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_10fcaaa3",
+   "class": "FIT_BUT_WRONG",
+   "time": 11.1,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 5,
+   "n_hyps": 1330,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:c8.all.out8(tile2($))>>subst_c8_patch_bg"
+  },
+  {
+   "id": "arc2_1190bc91",
+   "class": "NO_FIT",
+   "time": 16.1,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2615,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_11e1fe23",
+   "class": "NO_FIT",
+   "time": 18.75,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2172,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_13713586",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.19,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 6,
+   "n_hyps": 2096,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc2_137f0df0",
+   "class": "FIT_BUT_WRONG",
+   "time": 17.87,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 6,
+   "n_hyps": 2091,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:fill#2(halo#2($))>>linemap1"
+  },
+  {
+   "id": "arc2_14754a24",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.04,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 16,
+   "n_hyps": 1759,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "objects:subst_m8_mask"
+  },
+  {
+   "id": "arc2_1478ab18",
+   "class": "NO_FIT",
+   "time": 11.32,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2315,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_15660dd6",
+   "class": "NO_FIT",
+   "time": 16.99,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1563,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_17829a00",
+   "class": "NO_FIT",
+   "time": 19.24,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2404,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_178fcbfb",
+   "class": "SOLVED",
+   "time": 17.68,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 9,
+   "n_hyps": 2039,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "sequence",
+   "error": null,
+   "top_program": "sequence:rays_1h2v3h0"
+  },
+  {
+   "id": "arc2_17b866bd",
+   "class": "FIT_BUT_WRONG",
+   "time": 18.97,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 2,
+   "n_hyps": 1625,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "objects:objwise[c8]>>lookup_ncolors"
+  },
+  {
+   "id": "arc2_17cae0c1",
+   "class": "SOLVED",
+   "time": 14.65,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 17,
+   "n_hyps": 1856,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:panelmap_even1x3_grid"
+  },
+  {
+   "id": "arc2_18286ef8",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.0,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 13,
+   "n_hyps": 2106,
+   "rank": null,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_mod4"
+  },
+  {
+   "id": "arc2_18447a8d",
+   "class": "NO_FIT",
+   "time": 16.36,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2068,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_195ba7dc",
+   "class": "SOLVED",
+   "time": 17.36,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 11,
+   "n_hyps": 1366,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#2/ordered|2>4]"
+  },
+  {
+   "id": "arc2_1990f7a8",
+   "class": "NO_FIT",
+   "time": 13.62,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1345,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1a6449f1",
+   "class": "NO_FIT",
+   "time": 14.28,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1387,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1b60fb0c",
+   "class": "NO_FIT",
+   "time": 15.99,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1805,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1b8318e3",
+   "class": "NO_FIT",
+   "time": 16.59,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2242,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1be83260",
+   "class": "NO_FIT",
+   "time": 19.27,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1482,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1c02dbbe",
+   "class": "NO_FIT",
+   "time": 16.6,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2023,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1caeab9d",
+   "class": "SOLVED",
+   "time": 15.53,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 15,
+   "n_hyps": 1861,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:align_c8_color#1_near_keep_bg0"
+  },
+  {
+   "id": "arc2_1cf80156",
+   "class": "SOLVED",
+   "time": 6.83,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 517,
+   "n_hyps": 1591,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "geometry",
+   "error": null,
+   "top_program": "geometry:crop_content"
+  },
+  {
+   "id": "arc2_1d61978c",
+   "class": "SOLVED",
+   "time": 18.86,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 20,
+   "n_hyps": 2133,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_objsize"
+  },
+  {
+   "id": "arc2_1da012fc",
+   "class": "FIT_BUT_WRONG",
+   "time": 19.16,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 22,
+   "n_hyps": 1894,
+   "rank": null,
+   "n_distinct": 2.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:subst_c8_patch"
+  },
+  {
+   "id": "arc2_1e5d6875",
+   "class": "NO_FIT",
+   "time": 16.65,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2421,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1e81d6f9",
+   "class": "NO_FIT",
+   "time": 16.63,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2283,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1f0c79e5",
+   "class": "NO_FIT",
+   "time": 16.05,
+   "tags": [
+    "shape:same",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1874,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_1f85a75f",
+   "class": "SOLVED",
+   "time": 10.64,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:2"
+   ],
+   "n_fit": 212,
+   "n_hyps": 1828,
+   "rank": 0,
+   "n_distinct": 13.0,
+   "solver": "select",
+   "error": null,
+   "top_program": "select:c4.max_size.patch"
+  },
+  {
+   "id": "arc2_1fad071e",
+   "class": "NO_FIT",
+   "time": 6.54,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1410,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_2013d3e2",
+   "class": "SOLVED",
+   "time": 9.2,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:2"
+   ],
+   "n_fit": 47,
+   "n_hyps": 1736,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:quad0(crop($))"
+  },
+  {
+   "id": "arc2_2037f2c7",
+   "class": "NO_FIT",
+   "time": 15.08,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1384,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_2072aba6",
+   "class": "SOLVED",
+   "time": 7.41,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 21,
+   "n_hyps": 1452,
+   "rank": 0,
+   "n_distinct": 3.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:blockmap2x2"
+  },
+  {
+   "id": "arc2_20818e16",
+   "class": "NO_FIT",
+   "time": 15.59,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2380,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_212895b5",
+   "class": "NO_FIT",
+   "time": 16.65,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1812,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_21f83797",
+   "class": "NO_FIT",
+   "time": 16.34,
+   "tags": [
+    "shape:same",
+    "struct:sym_out",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1834,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_22806e14",
+   "class": "NO_FIT",
+   "time": 16.66,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2386,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_2281f1f4",
+   "class": "SOLVED",
+   "time": 17.7,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 4,
+   "n_hyps": 1996,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc2_228f6490",
+   "class": "FIT_BUT_WRONG",
+   "time": 17.85,
+   "tags": [
+    "shape:same",
+    "struct:permutation",
+    "ntrain:3"
+   ],
+   "n_fit": 4,
+   "n_hyps": 2175,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": "compose:fill#8(c8.ucol.del($))>>subst_c8_patch"
+  },
+  {
+   "id": "arc2_22eb0ac0",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.0,
+   "tags": [
+    "shape:same",
+    "struct:panels",
+    "ntrain:3"
+   ],
+   "n_fit": 14,
+   "n_hyps": 2612,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rowcol_lax"
+  },
+  {
+   "id": "arc2_234bbc79",
+   "class": "NO_FIT",
+   "time": 8.32,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1536,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_23581191",
+   "class": "SOLVED",
+   "time": 10.97,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 6,
+   "n_hyps": 2101,
+   "rank": 0,
+   "n_distinct": 2.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rowcol"
+  },
+  {
+   "id": "arc2_239be575",
+   "class": "SOLVED",
+   "time": 10.99,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "kind:tiny_out",
+    "ntrain:6"
+   ],
+   "n_fit": 6,
+   "n_hyps": 1296,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "enumerate",
+   "error": null,
+   "top_program": "enumerate:cmap[2>0](over(quad1(quad2($)),quad0(quad1($))))"
+  },
+  {
+   "id": "arc2_25094a63",
+   "class": "NO_FIT",
+   "time": 19.77,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 3601,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_252143c9",
+   "class": "NO_FIT",
+   "time": 18.38,
+   "tags": [
+    "shape:same",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1645,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_253bf280",
+   "class": "FIT_BUT_WRONG",
+   "time": 20.04,
+   "tags": [
+    "shape:same",
+    "ntrain:8"
+   ],
+   "n_fit": 8,
+   "n_hyps": 1752,
+   "rank": null,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc2_25c199f5",
+   "class": "NO_FIT",
+   "time": 10.71,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:5"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1476,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_25d8a9c8",
+   "class": "SOLVED",
+   "time": 9.66,
+   "tags": [
+    "shape:same",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 35,
+   "n_hyps": 3009,
+   "rank": 0,
+   "n_distinct": 6.0,
+   "solver": "objects",
+   "error": null,
+   "top_program": "objects:rows@None.by_ncolors"
+  },
+  {
+   "id": "arc2_25e02866",
+   "class": "NO_FIT",
+   "time": 13.3,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:2"
+   ],
+   "n_fit": 0,
+   "n_hyps": 2624,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_264363fd",
+   "class": "NO_FIT",
+   "time": 16.78,
+   "tags": [
+    "shape:same",
+    "ntrain:3"
+   ],
+   "n_fit": 0,
+   "n_hyps": 3864,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_2697da3f",
+   "class": "NO_FIT",
+   "time": 6.39,
+   "tags": [
+    "shape:diff",
+    "kind:reshape",
+    "ntrain:4"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1235,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_272f95fa",
+   "class": "SOLVED",
+   "time": 18.78,
+   "tags": [
+    "shape:same",
+    "struct:new_colors",
+    "struct:panels",
+    "ntrain:2"
+   ],
+   "n_fit": 13,
+   "n_hyps": 1981,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "cellwise",
+   "error": null,
+   "top_program": "cellwise:ca_rays"
+  },
+  {
+   "id": "arc2_27a28665",
+   "class": "NO_FIT",
+   "time": 7.51,
+   "tags": [
+    "shape:diff",
+    "kind:downscale",
+    "kind:tiny_out",
+    "struct:new_colors",
+    "ntrain:7"
+   ],
+   "n_fit": 0,
+   "n_hyps": 1553,
+   "rank": null,
+   "n_distinct": 0.0,
+   "solver": null,
+   "error": null,
+   "top_program": null
+  },
+  {
+   "id": "arc2_27f8ce4f",
+   "class": "SOLVED",
+   "time": 12.33,
+   "tags": [
+    "shape:diff",
+    "kind:upscale",
+    "struct:new_colors",
+    "ntrain:4"
+   ],
+   "n_fit": 15,
+   "n_hyps": 2764,
+   "rank": 0,
+   "n_distinct": 4.0,
+   "solver": "tiling",
+   "error": null,
+   "top_program": "tiling:stamp[top/id/0]"
+  },
+  {
+   "id": "arc2_281123b4",
+   "class": "SOLVED",
+   "time": 10.38,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "struct:panels",
+    "ntrain:6"
+   ],
+   "n_fit": 1,
+   "n_hyps": 1624,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "partition",
+   "error": null,
+   "top_program": "partition:ptab[sep#3/ordered|4>16]"
+  },
+  {
+   "id": "arc2_28bf18c6",
+   "class": "SOLVED",
+   "time": 9.31,
+   "tags": [
+    "shape:diff",
+    "kind:extract",
+    "ntrain:3"
+   ],
+   "n_fit": 24,
+   "n_hyps": 1792,
+   "rank": 0,
+   "n_distinct": 1.0,
+   "solver": "compose",
+   "error": null,
+   "top_program": "compose:crop|fit_tile1x2"
+  }
+ ]
+}

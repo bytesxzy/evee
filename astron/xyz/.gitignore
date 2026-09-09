@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# ops (scripts/install_namecheap.sh, scripts/cron_evolve.sh)
+.venv/
+logs/
+queue/
+predictions/
+policy/*.tmp
+policy/*.rejected.json
+policy/gabriel_harvest.state

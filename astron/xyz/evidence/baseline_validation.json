@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "244378d4620263f1bf4af4285a054f1bcaf31a32ecbd88677fd0a291a060f454",
+  "python": "3.13.5",
+  "command": "python -m unittest discover -s tests -v",
+  "scope": "Unmodified engine/tests extracted from original archive",
+  "tests": 34,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds": 3.519,
+  "execution": "Outside filesystem sandbox; initial sandbox runs hit TemporaryDirectory PermissionError, with 33 tests passing.",
+  "training_performed": false
+}

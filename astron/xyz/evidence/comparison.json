@@ -1,0 +1,30 @@
+{
+ "n_tasks": 550,
+ "baseline_engine": "cell4 astra v2 (lua, recorded run)",
+ "baseline_solved": 64,
+ "candidate_solved": 209,
+ "candidate_solved_top2": 222,
+ "absolute_gain": 145,
+ "relative_gain_pct": 226.56,
+ "accuracy_points": 26.36,
+ "paired_wins": 147,
+ "paired_losses": 2,
+ "both_solved": 62,
+ "sign_test_p": 1.5660911637294156e-41,
+ "arc1": {
+  "n": 400,
+  "baseline": 52,
+  "candidate": 168
+ },
+ "arc2": {
+  "n": 150,
+  "baseline": 12,
+  "candidate": 41
+ },
+ "lost_tasks": [
+  "arc1_46f33fce",
+  "arc1_8eb1be9a"
+ ],
+ "candidate_budget_s": 20.0,
+ "candidate_cpu_seconds": 2019.9
+}

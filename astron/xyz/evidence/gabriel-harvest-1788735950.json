@@ -1,0 +1,190 @@
+{
+ "n": 6,
+ "budget": 5.0,
+ "offset": 0,
+ "policy": null,
+ "stock": false,
+ "wall": 6.8,
+ "per_task": [
+  {
+   "id": "arc1_045e512c",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 3.172,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:big",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_05269061",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 4.674,
+   "solver": "tiling",
+   "hyps": [
+    [
+     "tiling:filldiag+1#0",
+     0.48
+    ],
+    [
+     "compose:rankpal~filldiag+1#0",
+     7.2
+    ],
+    [
+     "compose:T@filldiag+1#0",
+     7.2
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:small",
+    "ncol:high",
+    "sym:in"
+   ],
+   "program": "filldiag+1#0",
+   "programs": [
+    "rankpal~filldiag+1#0",
+    "T@filldiag+1#0",
+    "R@filldiag-1#0"
+   ]
+  },
+  {
+   "id": "arc1_06df4c85",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 3.314,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_08ed6ac7",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 3.29,
+   "solver": "objects",
+   "hyps": [
+    [
+     "objects:c4@0.by_size_rank",
+     2.67
+    ],
+    [
+     "objects:c8@0.by_size_rank",
+     2.67
+    ],
+    [
+     "objects:m4@0.by_size_rank",
+     2.67
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "c4@0.by_size_rank",
+   "programs": [
+    "T@c4@0.by_size_rank",
+    "R@c4@0.by_size_rank",
+    "paint#1($)>>c4@0.by_size_rank",
+    "paint#2($)>>c4@0.by_size_rank"
+   ]
+  },
+  {
+   "id": "arc1_0962bcdd",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 3.541,
+   "solver": null,
+   "hyps": [
+    [
+     "objects:subst_m8_patch",
+     6.4
+    ],
+    [
+     "objects:subst_m8_patch_bg",
+     6.4
+    ],
+    [
+     "objects:subst_m8_color",
+     6.4
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "subst_m8_patch",
+   "programs": []
+  },
+  {
+   "id": "arc1_0a938d79",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 2.861,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:4",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  }
+ ]
+}

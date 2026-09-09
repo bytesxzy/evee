@@ -1,0 +1,79 @@
+[
+ {
+  "config": "full",
+  "n": 314,
+  "solved": 140,
+  "rate": 0.4459,
+  "top2": 144,
+  "cpu_sum": 5380.3,
+  "wall": 497.4,
+  "no_hypothesis": 123,
+  "delta_vs_full": 0
+ },
+ {
+  "config": "no_planner",
+  "n": 314,
+  "solved": 139,
+  "rate": 0.4427,
+  "top2": 144,
+  "cpu_sum": 4855.4,
+  "wall": 450.4,
+  "no_hypothesis": 121,
+  "delta_vs_full": -1
+ },
+ {
+  "config": "no_object_ops",
+  "n": 314,
+  "solved": 139,
+  "rate": 0.4427,
+  "top2": 142,
+  "cpu_sum": 5222.6,
+  "wall": 482.3,
+  "no_hypothesis": 125,
+  "delta_vs_full": -1
+ },
+ {
+  "config": "no_object_induction",
+  "n": 314,
+  "solved": 135,
+  "rate": 0.4299,
+  "top2": 141,
+  "cpu_sum": 5251.4,
+  "wall": 484.2,
+  "no_hypothesis": 123,
+  "delta_vs_full": -5
+ },
+ {
+  "config": "no_deep_composition",
+  "n": 314,
+  "solved": 139,
+  "rate": 0.4427,
+  "top2": 143,
+  "cpu_sum": 4954.0,
+  "wall": 457.6,
+  "no_hypothesis": 130,
+  "delta_vs_full": -1
+ },
+ {
+  "config": "no_new_structure_families",
+  "n": 314,
+  "solved": 140,
+  "rate": 0.4459,
+  "top2": 144,
+  "cpu_sum": 5393.1,
+  "wall": 498.4,
+  "no_hypothesis": 124,
+  "delta_vs_full": 0
+ },
+ {
+  "config": "no_counterfactual_loo",
+  "n": 314,
+  "solved": 138,
+  "rate": 0.4395,
+  "top2": 144,
+  "cpu_sum": 5557.9,
+  "wall": 516.6,
+  "no_hypothesis": 123,
+  "delta_vs_full": -2
+ }
+]

@@ -1,0 +1,125 @@
+{
+ "n": 4,
+ "budget": 6.0,
+ "offset": 10,
+ "policy": null,
+ "stock": false,
+ "wall": 16.5,
+ "per_task": [
+  {
+   "id": "arc1_150deff5",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 3.18,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:new",
+    "pal:drop",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:low"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1a07d186",
+   "solved": 0,
+   "solved2": 0,
+   "partial": 0.0,
+   "time": 3.69,
+   "solver": null,
+   "hyps": [],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:same",
+    "ntrain:3",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": null,
+   "programs": []
+  },
+  {
+   "id": "arc1_1b2d62fb",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 6.0,
+   "solver": "partition",
+   "hyps": [
+    [
+     "partition:sep#1.nor->8",
+     -0.47
+    ],
+    [
+     "partition:sep_auto.nor->8",
+     -0.27
+    ],
+    [
+     "compose:T@sep#1.nor->8",
+     11.5
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:diff",
+    "size:down",
+    "outshape:const",
+    "pal:new",
+    "pal:drop",
+    "ntrain:5",
+    "bg:0",
+    "in:small",
+    "ncol:low",
+    "sep:yes"
+   ],
+   "program": "sep#1.nor->8",
+   "programs": [
+    "T@sep#1.nor->8",
+    "R@sep#1.nor->8",
+    "cmap[0>8,9>0](or(half_left($),half_right($)))"
+   ]
+  },
+  {
+   "id": "arc1_1bfc4729",
+   "solved": 1,
+   "solved2": 1,
+   "partial": 1.0,
+   "time": 3.543,
+   "solver": "compose",
+   "hyps": [
+    [
+     "compose:rankpal~const",
+     17.73
+    ]
+   ],
+   "error": null,
+   "n_test": 1,
+   "sigs": [
+    "shape:same",
+    "pal:drop",
+    "ntrain:2",
+    "bg:0",
+    "in:mid",
+    "ncol:high",
+    "sep:yes"
+   ],
+   "program": "rankpal~const",
+   "programs": [
+    "rankpal~const"
+   ]
+  }
+ ]
+}

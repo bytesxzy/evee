@@ -1,0 +1,1150 @@
+{
+ "per": [
+  {
+   "id": "arc1_025d127b",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 7.85
+  },
+  {
+   "id": "arc1_025d127b",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 9.06
+  },
+  {
+   "id": "arc1_045e512c",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.07
+  },
+  {
+   "id": "arc1_09629e4f",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_025d127b",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 15.52
+  },
+  {
+   "id": "arc1_025d127b",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 21.12
+  },
+  {
+   "id": "arc1_0a938d79",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.08
+  },
+  {
+   "id": "arc1_09629e4f",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 23.11
+  },
+  {
+   "id": "arc1_150deff5",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 8.27
+  },
+  {
+   "id": "arc1_150deff5",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 9.89
+  },
+  {
+   "id": "arc1_09629e4f",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 35.7
+  },
+  {
+   "id": "arc1_0a938d79",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 27.48
+  },
+  {
+   "id": "arc1_045e512c",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.22
+  },
+  {
+   "id": "arc1_045e512c",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.21
+  },
+  {
+   "id": "arc1_150deff5",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 20.79
+  },
+  {
+   "id": "arc1_1a07d186",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_1f642eb9",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_0a938d79",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.24
+  },
+  {
+   "id": "arc1_1fad071e",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 3.53
+  },
+  {
+   "id": "arc1_150deff5",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 29.33
+  },
+  {
+   "id": "arc1_09629e4f",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 51.7
+  },
+  {
+   "id": "arc1_045e512c",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.35
+  },
+  {
+   "id": "arc1_1f642eb9",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 16.77
+  },
+  {
+   "id": "arc1_1fad071e",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 4.99
+  },
+  {
+   "id": "arc1_1fad071e",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 13.08
+  },
+  {
+   "id": "arc1_22233c11",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 8.9
+  },
+  {
+   "id": "arc1_1f642eb9",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 27.87
+  },
+  {
+   "id": "arc1_1a07d186",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 32.44
+  },
+  {
+   "id": "arc1_22233c11",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 11.3
+  },
+  {
+   "id": "arc1_0a938d79",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.39
+  },
+  {
+   "id": "arc1_1a07d186",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.38
+  },
+  {
+   "id": "arc1_1fad071e",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 20.18
+  },
+  {
+   "id": "arc1_253bf280",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_22233c11",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.09
+  },
+  {
+   "id": "arc1_25d487eb",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_1f642eb9",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 37.53
+  },
+  {
+   "id": "arc1_253bf280",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 23.65
+  },
+  {
+   "id": "arc1_25d487eb",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 17.32
+  },
+  {
+   "id": "arc1_29623171",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_1a07d186",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.59
+  },
+  {
+   "id": "arc1_22233c11",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 36.25
+  },
+  {
+   "id": "arc1_25d487eb",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 32.68
+  },
+  {
+   "id": "arc1_2dd70a9a",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.12
+  },
+  {
+   "id": "arc1_29623171",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 19.46
+  },
+  {
+   "id": "arc1_253bf280",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.34
+  },
+  {
+   "id": "arc1_29623171",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 30.15
+  },
+  {
+   "id": "arc1_3345333e",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_25d487eb",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 42.25
+  },
+  {
+   "id": "arc1_2dd70a9a",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 26.49
+  },
+  {
+   "id": "arc1_36fdfd69",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.12
+  },
+  {
+   "id": "arc1_3345333e",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 21.19
+  },
+  {
+   "id": "arc1_253bf280",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 58.14
+  },
+  {
+   "id": "arc1_29623171",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.2
+  },
+  {
+   "id": "arc1_2dd70a9a",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.39
+  },
+  {
+   "id": "arc1_3345333e",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 33.18
+  },
+  {
+   "id": "arc1_39e1d7f9",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_3eda0437",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 10.76
+  },
+  {
+   "id": "arc1_3345333e",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.2
+  },
+  {
+   "id": "arc1_36fdfd69",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 31.96
+  },
+  {
+   "id": "arc1_3eda0437",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 13.46
+  },
+  {
+   "id": "arc1_2dd70a9a",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 55.14
+  },
+  {
+   "id": "arc1_36fdfd69",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.41
+  },
+  {
+   "id": "arc1_4347f46a",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_3eda0437",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.3
+  },
+  {
+   "id": "arc1_39e1d7f9",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.3
+  },
+  {
+   "id": "arc1_444801d8",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.08
+  },
+  {
+   "id": "arc1_39e1d7f9",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.35
+  },
+  {
+   "id": "arc1_4347f46a",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.4
+  },
+  {
+   "id": "arc1_444801d8",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 16.04
+  },
+  {
+   "id": "arc1_4612dd53",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_3eda0437",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 36.22
+  },
+  {
+   "id": "arc1_36fdfd69",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.66
+  },
+  {
+   "id": "arc1_444801d8",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 25.81
+  },
+  {
+   "id": "arc1_47c1f68c",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 4.85
+  },
+  {
+   "id": "arc1_47c1f68c",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 6.4
+  },
+  {
+   "id": "arc1_4612dd53",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 14.74
+  },
+  {
+   "id": "arc1_4347f46a",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.31
+  },
+  {
+   "id": "arc1_39e1d7f9",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.54
+  },
+  {
+   "id": "arc1_53b68214",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 3.53
+  },
+  {
+   "id": "arc1_50846271",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.12
+  },
+  {
+   "id": "arc1_4612dd53",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 29.06
+  },
+  {
+   "id": "arc1_47c1f68c",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 19.52
+  },
+  {
+   "id": "arc1_444801d8",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 34.48
+  },
+  {
+   "id": "arc1_53b68214",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 5.17
+  },
+  {
+   "id": "arc1_53b68214",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 13.54
+  },
+  {
+   "id": "arc1_56dc2b01",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 8.67
+  },
+  {
+   "id": "arc1_4347f46a",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 53.54
+  },
+  {
+   "id": "arc1_47c1f68c",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 27.23
+  },
+  {
+   "id": "arc1_56dc2b01",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 10.39
+  },
+  {
+   "id": "arc1_4612dd53",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 38.53
+  },
+  {
+   "id": "arc1_56dc2b01",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 17.29
+  },
+  {
+   "id": "arc1_53b68214",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 21.53
+  },
+  {
+   "id": "arc1_57aa92db",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_5ad4f10b",
+   "setting": "default",
+   "fitted": 1,
+   "correct": 0,
+   "time": 9.69
+  },
+  {
+   "id": "arc1_50846271",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.38
+  },
+  {
+   "id": "arc1_50846271",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.36
+  },
+  {
+   "id": "arc1_56dc2b01",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.73
+  },
+  {
+   "id": "arc1_5ad4f10b",
+   "setting": "deep",
+   "fitted": 1,
+   "correct": 0,
+   "time": 18.46
+  },
+  {
+   "id": "arc1_63613498",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.08
+  },
+  {
+   "id": "arc1_63613498",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 16.75
+  },
+  {
+   "id": "arc1_57aa92db",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.28
+  },
+  {
+   "id": "arc1_673ef223",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.1
+  },
+  {
+   "id": "arc1_5ad4f10b",
+   "setting": "wide",
+   "fitted": 1,
+   "correct": 0,
+   "time": 32.27
+  },
+  {
+   "id": "arc1_57aa92db",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 39.58
+  },
+  {
+   "id": "arc1_50846271",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.6
+  },
+  {
+   "id": "arc1_6773b310",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 7.41
+  },
+  {
+   "id": "arc1_63613498",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 28.76
+  },
+  {
+   "id": "arc1_6773b310",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 10.91
+  },
+  {
+   "id": "arc1_681b3aeb",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 4.95
+  },
+  {
+   "id": "arc1_673ef223",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 20.46
+  },
+  {
+   "id": "arc1_681b3aeb",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 6.59
+  },
+  {
+   "id": "arc1_5ad4f10b",
+   "setting": "wide+deep",
+   "fitted": 1,
+   "correct": 0,
+   "time": 48.57
+  },
+  {
+   "id": "arc1_63613498",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 37.65
+  },
+  {
+   "id": "arc1_57aa92db",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.45
+  },
+  {
+   "id": "arc1_681b3aeb",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 16.66
+  },
+  {
+   "id": "arc1_6773b310",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 26.84
+  },
+  {
+   "id": "arc1_673ef223",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 38.93
+  },
+  {
+   "id": "arc1_6855a6e4",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_6b9890af",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 11.93
+  },
+  {
+   "id": "arc1_681b3aeb",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.27
+  },
+  {
+   "id": "arc1_6855a6e4",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 20.24
+  },
+  {
+   "id": "arc1_6d58a25d",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_6773b310",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.3
+  },
+  {
+   "id": "arc1_6b9890af",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 16.92
+  },
+  {
+   "id": "arc1_673ef223",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 51.41
+  },
+  {
+   "id": "arc1_6855a6e4",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 34.26
+  },
+  {
+   "id": "arc1_72322fa7",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.1
+  },
+  {
+   "id": "arc1_6b9890af",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 34.56
+  },
+  {
+   "id": "arc1_6855a6e4",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 42.42
+  },
+  {
+   "id": "arc1_73251a56",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.09
+  },
+  {
+   "id": "arc1_77fdfe62",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 4.57
+  },
+  {
+   "id": "arc1_72322fa7",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 29.91
+  },
+  {
+   "id": "arc1_6d58a25d",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.26
+  },
+  {
+   "id": "arc1_6d58a25d",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.25
+  },
+  {
+   "id": "arc1_6b9890af",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 50.89
+  },
+  {
+   "id": "arc1_77fdfe62",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 6.7
+  },
+  {
+   "id": "arc1_72322fa7",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.3
+  },
+  {
+   "id": "arc1_77fdfe62",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 14.54
+  },
+  {
+   "id": "arc1_7df24a62",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.11
+  },
+  {
+   "id": "arc1_8731374e",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 9.88
+  },
+  {
+   "id": "arc1_73251a56",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.27
+  },
+  {
+   "id": "arc1_77fdfe62",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 24.3
+  },
+  {
+   "id": "arc1_73251a56",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.27
+  },
+  {
+   "id": "arc1_6d58a25d",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.42
+  },
+  {
+   "id": "arc1_72322fa7",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.1
+  },
+  {
+   "id": "arc1_8eb1be9a",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.08
+  },
+  {
+   "id": "arc1_8731374e",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 19.27
+  },
+  {
+   "id": "arc1_8eb1be9a",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 14.05
+  },
+  {
+   "id": "arc1_7df24a62",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.34
+  },
+  {
+   "id": "arc1_7df24a62",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 40.34
+  },
+  {
+   "id": "arc1_8731374e",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 32.49
+  },
+  {
+   "id": "arc1_73251a56",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.43
+  },
+  {
+   "id": "arc1_913fb3ed",
+   "setting": "default",
+   "fitted": 0,
+   "correct": 0,
+   "time": 12.06
+  },
+  {
+   "id": "arc1_8eb1be9a",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 28.37
+  },
+  {
+   "id": "arc1_913fb3ed",
+   "setting": "deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 22.3
+  },
+  {
+   "id": "arc1_7df24a62",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 60.49
+  },
+  {
+   "id": "arc1_8731374e",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 48.64
+  },
+  {
+   "id": "arc1_8eb1be9a",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 33.45
+  },
+  {
+   "id": "arc1_913fb3ed",
+   "setting": "wide",
+   "fitted": 0,
+   "correct": 0,
+   "time": 39.01
+  },
+  {
+   "id": "arc1_913fb3ed",
+   "setting": "wide+deep",
+   "fitted": 0,
+   "correct": 0,
+   "time": 53.79
+  }
+ ],
+ "agg": {
+  "default": {
+   "n": 40,
+   "any_fit": 1,
+   "correct": 0,
+   "time": 10.48
+  },
+  "deep": {
+   "n": 40,
+   "any_fit": 1,
+   "correct": 0,
+   "time": 21.24
+  },
+  "wide": {
+   "n": 40,
+   "any_fit": 1,
+   "correct": 0,
+   "time": 31.34
+  },
+  "wide+deep": {
+   "n": 40,
+   "any_fit": 1,
+   "correct": 0,
+   "time": 44.73
+  }
+ }
+}

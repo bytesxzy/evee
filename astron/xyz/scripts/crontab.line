@@ -1,0 +1,42 @@
+# GABRIEL -- one training tick every six minutes.
+#
+# Install this with scripts/install_namecheap.sh, which replaces only its own
+# line and leaves the rest of your crontab alone.  If you prefer to paste it by
+# hand: crontab -e, then add the line below (adjust the path if you unzipped
+# somewhere other than /root).
+#
+#   */6  every sixth minute
+#   *    every hour, every day, every month, every weekday
+
+*/6 * * * * /root/astraarcengine-improved/astra/scripts/cron_evolve.sh
+
+# Why six minutes, and why that is not a problem
+# ----------------------------------------------
+#
+# Namecheap's shared-hosting acceptable-use rules (cPanel/Stellar) cap cron at
+# one run per five minutes and a handful of concurrent jobs.  Those rules are
+# about a machine shared with other tenants; they do not apply to a KVM VPS on
+# a user-responsible plan, which is what this is written for.  The interval
+# here stays above five minutes anyway, so the same line would be compliant if
+# it were ever moved onto shared hosting -- where the rest of this would not
+# run at all.  Check the current AUP for your own plan before assuming either
+# way; Namecheap's terms are the authority, not this comment.
+#
+# The interval is not what bounds the work, and this is the important part:
+#
+#   * scripts/cron_evolve.sh takes /tmp/astra-evolve.lock with flock -n.  A
+#     tick that finds the lock held logs one line and exits 0.  Ticks cannot
+#     pile up, whatever interval you choose.
+#   * one evolve round over the fit split at --budget 14 takes roughly 20-60
+#     minutes on 4 vCPU.  So most six-minute ticks are no-ops by design, and
+#     the schedule is really "start another round as soon as the last one
+#     finished", expressed in cron.
+#   * a shorter interval therefore costs a few milliseconds of shell per tick
+#     and buys a faster restart after a round ends; a longer one just leaves
+#     the box idle between rounds.  15 minutes is equally correct and slightly
+#     tidier in the logs:
+#
+#       */15 * * * * /root/astraarcengine-improved/astra/scripts/cron_evolve.sh
+#
+# Everything the tick runs is nice 10 and capped at min(4, nproc) workers, so a
+# web stack on the same VPS keeps its CPU.

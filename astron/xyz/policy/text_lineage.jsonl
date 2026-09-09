@@ -1,0 +1,5 @@
+{"adopted": true, "candidate_dev_loss": 0.0015, "family_dev_accuracy": 1.0, "family_dev_loss": 0.0032, "holdout_family_accuracy": 0.9, "reason": "no incumbent", "t": 1788750861}
+{"adopted": true, "candidate_dev_loss": 0.0053, "family_dev_accuracy": 0.9972, "family_dev_loss": 0.0036, "holdout_family_accuracy": 0.9, "reason": "forced", "t": 1788754017}
+{"adopted": true, "candidate_dev_loss": 0.0053, "family_dev_accuracy": 0.9972, "family_dev_loss": 0.0, "holdout_family_accuracy": 0.9, "reason": "forced", "t": 1788754115}
+{"adopted": true, "candidate_dev_loss": 0.0053, "family_dev_accuracy": 0.8914, "family_dev_loss": 0.9522, "holdout_family_accuracy": 0.9, "reason": "forced", "t": 1788754168}
+{"adopted": true, "candidate_dev_loss": 0.0053, "family_dev_accuracy": 0.8914, "family_dev_loss": 0.9021, "holdout_family_accuracy": 0.8, "reason": "forced", "t": 1788754191}
