@@ -23,13 +23,24 @@ per task, two attempts scored, with the trained planner active.
 
 | | tasks | solved | rate |
 |---|---:|---:|---:|
-| ARC-AGI-1 | 400 | 201 | 50.25% |
+| ARC-AGI-1 | 400 | 203 | 50.75% |
 | ARC-AGI-2 | 150 | 51 | 34.00% |
-| **total** | **550** | **252** | **45.82%** |
+| **total** | **550** | **254** | **46.18%** |
 
-The JavaScript port is verified against the Python original per task, not just
-in aggregate. On the 236-task development split the two engines solve **the
-same 111 tasks** — no task solved by one and missed by the other.
+**The last digit is noise.** The per-task budget is wall clock, so a search
+that lands near the deadline can fall either side of it. Two runs of the Python
+original on this machine, same command, scored **252** and **253**; the port
+scored **254**. Three tasks account for every difference between the port's run
+and the original's second run, and all three sit on the deadline:
+`arc1_b230c067` (original found it at 16.8 s, the port had exhausted its
+generators by 10.6 s), `arc1_6ecd11f4` and `arc1_83302e8f` (the port found them
+at 17.9 s and 20.0 s, the original had not by 16.5 s and 18.8 s). Read the
+result as ~46%, not as 254.
+
+The equivalence is checked per task, not in aggregate. On the 236-task
+development split the two engines solve **the same 111 tasks** — none solved by
+one and missed by the other. Over the full corpus they agree on 252 solved
+tasks and differ only on the three above.
 
 Reproduce:
 
